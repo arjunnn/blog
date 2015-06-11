@@ -11,8 +11,8 @@ github_username:  arjunnn
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+# highlighter: pygments
 # highlighter: rouge
 # highlighter: false
 redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+  extensions: ["strikethrough"]
