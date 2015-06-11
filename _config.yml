@@ -9,6 +9,7 @@ url: "http://arjun.ninja" # the base hostname & protocol for your site
 twitter_username: arjundot
 github_username:  arjunnn
 permalink: /:title
+timezone: Asia/Calcutta
 
 
 # Build settings
