@@ -10,7 +10,8 @@ twitter_username: arjundot
 github_username:  arjunnn
 
 # Build settings
-markdown: kramdown
+# markdown: kramdown
+markdown: redcarpet
 # highlighter: pygments
 # highlighter: rouge
 # highlighter: false
