@@ -8,6 +8,8 @@ baseurl: "/blog" # the subpath of your site, e.g. /blog/
 url: "http://arjun.ninja" # the base hostname & protocol for your site
 twitter_username: arjundot
 github_username:  arjunnn
+permalink: /blog/:title
+
 
 # Build settings
 # markdown: kramdown
