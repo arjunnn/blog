@@ -21,6 +21,16 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+    -webkit-user-select: yellow;
+    :-moz-selection { /* Code for Firefox */
+	color: black;
+	background: yellow;
+}
+
+::selection {
+    color: black;
+    background: yellow;
+}
 }
 
 .site-title{
