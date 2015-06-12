@@ -2,6 +2,7 @@
 layout: post
 title:  "Where Was I? Using IFTTT To Log Your Locations "
 date:   2015-06-12 12:13:33
+tags: ifttt howto
 ---
 
 Have you ever been in a situation where you *had* to remember where you were on a particular day sometime in the past and you have no clue *at all*? Probably you were too ~~drunk~~ absent minded, like me. 
