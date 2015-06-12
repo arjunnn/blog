@@ -2,7 +2,9 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    border-top: 10px solid $grey-color-dark;
+    border-left: 10px solid $grey-color-dark;
+    border-right: 10px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color;
     min-height: 56px;
 
@@ -94,6 +96,9 @@
 .site-footer {
     border-top: 1px solid $grey-color;
     padding: $spacing-unit 0;
+    border-left: 10px solid $grey-color-dark;
+    border-right: 10px solid $grey-color-dark;
+    border-bottom: 10px solid $grey-color-dark;
 }
 
 .footer-heading {
@@ -163,6 +168,8 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    border-left: 10px solid $grey-color-dark;
+    border-right: 10px solid $grey-color-dark;
 }
 
 .page-heading {
