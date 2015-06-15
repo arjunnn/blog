@@ -13,13 +13,14 @@ layout: default
   <div>
     <span>tags:</span>
 {% for tag in page.tags %}
-    <span style="background-color: yellow;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;padding-left:5px;padding-right:5px;border:0em solid #000000">{{tag}}</span>
+    <span class="post-tag">{{tag}}</span>
 {% endfor %}
   </div>
+  </br></br>
   {% if page.previous %} 
-        <a rel="prev" href="{{ page.previous.url | prepend: site.baseurl }}">&larr; Older</a>
+        <a rel="prev" class="nav-prev" href="{{ page.previous.url | prepend: site.baseurl }}">&larr; Older</a>
     {% endif %}
     {% if page.next %} 
-        <a rel="next" href="{{ page.next.url | prepend: site.baseurl }}">Newer &rarr;</a>
+        <a rel="next" class="nav-next" href="{{ page.next.url | prepend: site.baseurl }}">Newer &rarr;</a>
     {% endif %}
 </div>

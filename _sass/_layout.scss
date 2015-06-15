@@ -241,3 +241,28 @@
         }
     }
 }
+
+.post-tag {
+    background-color: yellow;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding-left:5px;
+    padding-right:5px;
+    border:0px solid $brand-color;
+    
+}
+.nav-prev, .nav-next {
+    border: 1px solid $brand-color;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.nav-prev {
+    float: left;
+}
+.nav-next {
+    float: right;
+}
