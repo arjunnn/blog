@@ -17,9 +17,9 @@ layout: default
 {% endfor %}
   </div>
   {% if page.previous %} 
-        <a rel="prev" href="{{ page.previous.url }}">&larr; Older</a>
+        <a rel="prev" href="{{ page.previous.url | prepend: site.baseurl }}">&larr; Older</a>
     {% endif %}
     {% if page.next %} 
-        <a rel="next" href="{{ page.next.url }}">Newer &rarr;</a>
+        <a rel="next" href="{{ page.next.url | prepend: site.baseurl }}">Newer &rarr;</a>
     {% endif %}
 </div>
