@@ -11,11 +11,15 @@ layout: default
      {{content}}
   </article>
   <div>
-  
     <span>tags:</span>
 {% for tag in page.tags %}
     <span style="background-color: yellow;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;padding-left:5px;padding-right:5px;border:0em solid #000000">{{tag}}</span>
 {% endfor %}
-
   </div>
+  {% if page.previous %} 
+        <a rel="prev" href="{{ page.previous.url }}">&larr; Older</a>
+    {% endif %}
+    {% if page.next %} 
+        <a rel="next" href="{{ page.next.url }}">Newer &rarr;</a>
+    {% endif %}
 </div>
