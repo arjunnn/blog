@@ -2,14 +2,19 @@
 layout: post
 title: "My Journey With kMITRA"
 tags: "kmitra"
-date: 2015-06-26-12 05:25:00
+date: 2015-06-23-12 05:25:00
 summary: A behind the scenes look of kmit.in/emagazine
 ---
-I am the sole developer and designer of kMITRA, something I really enjoy decicating my time to. 
-This is how we *roll*:
 
-##**Backend**
-Our website runs on the [WordPress](https://wordpress.org) platform. 
+##**Introduction**
+kMITRA is a student-run monthly magazine by the students of [KMIT](http://kmit.in/). The magazine aspires to cover and inform readers about science, culture, art, technology, and issues relevant to the student commmunity, in a cohesive manner. [http://kmit.in/emagazine](http://kmit.in/emagazine)
+
+I am the sole developer and designer of kMITRA, something I really enjoy decicating my time to. Here's a brief overview and history of the website from a technical standpoint.
+
+>This is how we *roll*
+
+##**Back-End**
+The website runs on the [WordPress](https://wordpress.org) platform. 
 We chose WordPress as our backend because we believe in the future of WordPress, as a simple, community driven, scalable, and endlessly extensible publishing platform. 
 More than **71 million** people can’t be wrong. Also because it's free, lol.
 
@@ -39,6 +44,17 @@ I handled these requests by modifying the `.htaccess` file of KMIT's Apache serv
 <!--{% gist arjunnn/92066a21c024eef4c480 %}-->
 
 `RedirectMatch 301 /newsletter/(.*) http://kmit.in/emagazine/$1`
-
+ 
 `Redirectmatch 301 /kmitra http://kmit.in/emagazine/`
+
+##**Technologies used**
+####**Front-End**
+* HTML
+* CSS
+* JavaScript
+
+####**Back-End**
+* PHP
+* Apache HTTP Server
+* WordPress CMS/CDN
 
