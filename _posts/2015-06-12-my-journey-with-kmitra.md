@@ -33,9 +33,9 @@ so we chose the [Open Sans](https://www.google.com/fonts/specimen/Open+Sans) typ
 The layout or UI is the first thing a reader notices when looking at a website. We needed something elegant and functional for kMITRA, with generous use of negative space to let the user focus on the actual content. It was fairly easy to achieve the desired look of the website using a base theme and custom CSS. 
 
 ####**Migration**
-Since the old magazine, Vipasana was located at `kmit.in/newsletter` for a long time, search engines such as google provided links for Vipasana articles using the old URL. This lead to a number of `404: NOT FOUND` error messages. 
+Since the old magazine, Vipasana, was located at `kmit.in/newsletter` for a long time, search engines such as google provided links for Vipasana articles using the old URL. This lead to a number of `404: NOT FOUND` error messages. 
 I handled these requests by modifying the `.htaccess` file of KMIT's Apache server to include `HTTP 301` redirects.
 #####example:
 {% highlight apache %}
-	*RedirectMatch 301 /newsletter/(.*) http://kmit.in/emagazine/$1
+	RedirectMatch 301 /newsletter/(.*) http://kmit.in/emagazine/$1
 {% endhighlight %}
