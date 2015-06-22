@@ -7,6 +7,7 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">Published on {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
+  <br>
   <article class="post-content">
      {{content}}
   </article>
@@ -16,7 +17,7 @@ layout: default
     <span class="post-tag">#{{tag}}</span>
 {% endfor %}
   </div>
-  </br></br>
+  <br><br>
   {% if page.previous %} 
         <a rel="prev" class="nav-prev" href="{{ page.previous.url | prepend: site.baseurl }}">&larr; Older</a>
     {% endif %}
