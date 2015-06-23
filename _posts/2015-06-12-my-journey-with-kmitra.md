@@ -5,13 +5,15 @@ tags: "kmitra"
 date: 2015-06-23-12 05:25:00
 summary: A behind the scenes look of kmit.in/emagazine
 ---
-
 ##**Introduction**
 kMITRA is a student-run monthly magazine by the students of [KMIT](http://kmit.in/). The magazine aspires to cover and inform readers about science, culture, art, technology, and issues relevant to the student commmunity, in a cohesive manner. [http://kmit.in/emagazine](http://kmit.in/emagazine)
 
 I am the sole developer and designer of kMITRA, something I really enjoy decicating my time to. Here's a brief overview and history of the website from a technical standpoint.
 
 >This is how we *roll*
+
+####**The Logo:**
+![kmitra logo](../images/kmitra-logo.png)
 
 ##**Back-End**
 The website runs on the [WordPress](https://wordpress.org) platform. 
@@ -67,3 +69,8 @@ kMITRA launched on 22nd October last year, with only a Facebook [page](https://f
 * WordPress CMS/CDN
 
 
+Thanks for reading :)
+
+![That's All Folks!](http://s3-ec.buzzfed.com/static/enhanced/webdr06/2013/9/13/11/anigif_enhanced-buzz-18263-1379085559-41.gif)
+
+*until next time..*
