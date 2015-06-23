@@ -47,6 +47,13 @@ I handled these requests by modifying the `.htaccess` file of KMIT's Apache serv
  
 `Redirectmatch 301 /kmitra http://kmit.in/emagazine/`
 
+
+##**Reception**
+kMITRA launched on 22nd October last year, with only a Facebook [page](https://facebook.com/kmitrakmit) for publicity. The response was, and continues to be tremendous. It has exceeded all of our expectations. The entire team of kMITRA has been overjoyous. The dedication of our readers gives us with immense hope for the future of the magazine and a sense of responsibility towards delivering quality and engaging content.
+
+####**Here are some stats:**
+![kMITRA Stats]()
+  
 ##**Technologies used**
 ####**Front-End**
 * HTML
@@ -57,4 +64,5 @@ I handled these requests by modifying the `.htaccess` file of KMIT's Apache serv
 * PHP
 * Apache HTTP Server
 * WordPress CMS/CDN
+
 
