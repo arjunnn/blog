@@ -56,6 +56,9 @@ kMITRA launched on 22nd October last year, with only a Facebook [page](https://f
 ####**Here are some stats:**
 ![kMITRA Stats](../images/kmitra-stats.jpg)
 >Note: These numbers are from Feb-Jun 2015 only. That's when we started collecting data.
+
+##Lessons Learnt
+Developing kMITRA has taught me a great deal about the technologies behind it. I now see how exhilarating solving problems can be. 
   
 ##**Technologies used**
 ####**Front-End**
