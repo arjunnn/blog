@@ -58,8 +58,12 @@ kMITRA launched on 22nd October last year, with only a Facebook [page](https://f
 >Note: These numbers are from Feb-Jun 2015 only. That's when we started collecting data.
 
 ##**Lessons Learnt**
-Developing kMITRA has taught me a great deal about the technologies behind it. I now see how exhilarating solving problems can be. It has helped me communicate better with my team and put forward my ideas and views in a coherent manner. I look forward to continue contributing to the magazine during my final year at KMIT.
+Developing kMITRA has taught me a great deal about the technologies behind it. I now see how exhilarating solving problems can be. It has helped me communicate better with my team and put forward my ideas and views in a coherent manner.
+
+One of my most memorable assignments was creating a special [page](http://kmit.in/emagazine/oscars/) for kMITRA's coverage of Oscars 2015. 
   
+ I look forward to continue contributing to the magazine during my final year at KMIT.
+
 ##**Technologies used**
 ####**Front-End**
 * HTML
