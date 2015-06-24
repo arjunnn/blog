@@ -17,7 +17,7 @@ I am the sole developer and designer of kMITRA, something I really enjoy decicat
 
 ##**Back-End**
 The website runs on the [WordPress](https://wordpress.org) platform. 
-We chose WordPress as our backend because we believe in the future of WordPress, as a simple, community driven, scalable, and endlessly extensible publishing platform. 
+We chose WordPress as our back-end because we believe in the future of WordPress, as a simple, community driven, scalable, and endlessly extensible publishing platform. 
 More than **71 million** people can’t be wrong. Also because it's free, lol.
 
 ##**Content** 
@@ -51,7 +51,7 @@ I handled these requests by modifying the `.htaccess` file of KMIT's Apache serv
 
 
 ##**Reception**
-kMITRA launched on 22nd October last year, with only a Facebook [page](https://facebook.com/kmitrakmit) for publicity. The response was, and continues to be tremendous. It has exceeded all of our expectations. The entire team of kMITRA has been overjoyous. The dedication of our readers gives us with immense hope for the future of the magazine and a sense of responsibility towards delivering quality and engaging content.
+kMITRA launched on 22nd October last year, with only a Facebook [page](https://facebook.com/kmitrakmit) for publicity. The response was, and continues to be tremendous. It has exceeded all of our expectations. The entire team of kMITRA has been overjoyous. The dedication of our readers gives us immense hope for the future of the magazine and a sense of responsibility towards delivering quality and engaging content.
 
 ####**Here are some stats:**
 ![kMITRA Stats](../images/kmitra-stats.jpg)
