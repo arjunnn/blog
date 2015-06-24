@@ -8,7 +8,7 @@ summary: A behind the scenes look of kmit.in/emagazine
 ##**Introduction**
 kMITRA is a student-run monthly magazine by the students of [KMIT](http://kmit.in/). The magazine aspires to cover and inform readers about science, culture, art, technology, and issues relevant to the student commmunity, in a cohesive manner. [http://kmit.in/emagazine](http://kmit.in/emagazine)
 
-I am the sole developer and designer of kMITRA, something I really enjoy decicating my time to. Here's a brief overview and history of the website from a technical standpoint.
+I am the developer and designer of kMITRA, something I really enjoy decicating my time to. Here's a brief overview and history of the website from a technical standpoint.
 
 >This is how we *roll*
 
@@ -51,14 +51,14 @@ I handled these requests by modifying the `.htaccess` file of KMIT's Apache serv
 
 
 ##**Reception**
-kMITRA launched on 22nd October last year, with only a Facebook [page](https://facebook.com/kmitrakmit) for publicity. The response was, and continues to be tremendous. It has exceeded all of our expectations. The entire team of kMITRA has been overjoyous. The dedication of our readers gives us immense hope for the future of the magazine and a sense of responsibility towards delivering quality and engaging content.
+kMITRA launched on 22nd October last year, with only a Facebook [page](https://facebook.com/kmitrakmit) for publicity. The response was, and continues to be tremendous. It has exceeded all of our expectations. The entire team of kMITRA is overjoyed. The dedication of our readers gives us immense hope for the future of the magazine and a sense of responsibility towards delivering quality and engaging content.
 
 ####**Here are some stats:**
 ![kMITRA Stats](../images/kmitra-stats.jpg)
 >Note: These numbers are from Feb-Jun 2015 only. That's when we started collecting data.
 
 ##**Lessons Learnt**
-Developing kMITRA has taught me a great deal about the technologies behind it. I now see how exhilarating solving problems can be. It has helped me communicate better with my team and put forward my ideas and views in a coherent manner. I look forward to continue contributing to the magazine during my limited time at KMIT.
+Developing kMITRA has taught me a great deal about the technologies behind it. I now see how exhilarating solving problems can be. It has helped me communicate better with my team and put forward my ideas and views in a coherent manner. I look forward to continue contributing to the magazine during my final year at KMIT.
   
 ##**Technologies used**
 ####**Front-End**
