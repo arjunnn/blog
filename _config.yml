@@ -13,8 +13,8 @@ timezone: Asia/Calcutta
 
 
 # Build settings
-# markdown: kramdown
-markdown: redcarpet
+markdown: kramdown
+# markdown: redcarpet
 # highlighter: pygments
 # highlighter: rouge
 # highlighter: false
