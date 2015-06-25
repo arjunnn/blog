@@ -44,12 +44,14 @@ Since the old magazine, Vipasana, was located at `kmit.in/newsletter` for a long
 I handled these requests by modifying the `.htaccess` file of KMIT's Apache server to include `HTTP 301` redirects.
 #####example:
 <!--{% gist arjunnn/92066a21c024eef4c480 %}-->
+
 ```
+
 RedirectMatch 301 /newsletter/(.*) http://kmit.in/emagazine/$1
 
 Redirectmatch 301 /kmitra http://kmit.in/emagazine/
-```
 
+```
 
 ##**Reception**
 kMITRA launched on 22nd October last year, with only a Facebook [page](https://facebook.com/kmitrakmit) for publicity. The response was, and continues to be tremendous. It has exceeded all of our expectations. The entire team of kMITRA is overjoyed. The dedication of our readers gives us immense hope for the future of the magazine and a sense of responsibility towards delivering quality and engaging content.
