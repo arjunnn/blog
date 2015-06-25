@@ -44,10 +44,11 @@ Since the old magazine, Vipasana, was located at `kmit.in/newsletter` for a long
 I handled these requests by modifying the `.htaccess` file of KMIT's Apache server to include `HTTP 301` redirects.
 #####example:
 <!--{% gist arjunnn/92066a21c024eef4c480 %}-->
+```
+RedirectMatch 301 /newsletter/(.*) http://kmit.in/emagazine/$1
 
-`RedirectMatch 301 /newsletter/(.*) http://kmit.in/emagazine/$1`
-
-`Redirectmatch 301 /kmitra http://kmit.in/emagazine/`
+Redirectmatch 301 /kmitra http://kmit.in/emagazine/
+```
 
 
 ##**Reception**
