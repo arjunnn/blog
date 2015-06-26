@@ -18,5 +18,5 @@ markdown: kramdown
 # highlighter: pygments
 # highlighter: rouge
 # highlighter: false
-redcarpet:
-  extensions: ["strikethrough"]
+# redcarpet:
+  # extensions: ["strikethrough"]
