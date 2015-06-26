@@ -26,6 +26,7 @@ Videos, however, are hosted on our [YouTube channel](https://www.youtube.com/cha
 Newsletters are distributed to subscribers in bulk via a [Mailchimp](https://mailchimp.com/) server.
 
 ##**Baby Steps**
+
 ####**Plugins**
 kMITRA was required to be a periodical magazine, with new issues every month.
 By default, WordPress does not provide management functionality for periodicals.
@@ -42,22 +43,24 @@ The layout or UI is the first thing a reader notices when looking at a website. 
 ####**Migration**
 Since the old magazine, Vipasana, was located at `kmit.in/newsletter` for a long time, search engines such as google provided links for Vipasana articles using the old URL. This lead to a number of `404: NOT FOUND` error messages.
 I handled these requests by modifying the `.htaccess` file of KMIT's Apache server to include `HTTP 301` redirects.
-#####example:
+
+#####**example:**
 <!--{% gist arjunnn/92066a21c024eef4c480 %}-->
 
-```
+~~~~
 
 RedirectMatch 301 /newsletter/(.*) http://kmit.in/emagazine/$1
 
 Redirectmatch 301 /kmitra http://kmit.in/emagazine/
 
-```
+~~~~
 
 ##**Reception**
 kMITRA launched on 22nd October last year, with only a Facebook [page](https://facebook.com/kmitrakmit) for publicity. The response was, and continues to be tremendous. It has exceeded all of our expectations. The entire team of kMITRA is overjoyed. The dedication of our readers gives us immense hope for the future of the magazine and a sense of responsibility towards delivering quality and engaging content.
 
 ####**Here are some stats:**
 ![kMITRA Stats](../images/kmitra-stats.jpg)
+
 >Note: These numbers are from Feb-Jun 2015 only. That's when we started collecting data.
 
 ##**Lessons Learnt**
@@ -68,6 +71,7 @@ One of my most memorable assignments was creating a special [page](http://kmit.i
  I look forward to continue contributing to the magazine during my final year at KMIT.
 
 ##**Technologies used**
+
 ####**Front-End**
 * HTML
 * CSS
