@@ -5,7 +5,7 @@ date:   2015-06-12 12:13:33
 tags: ifttt howto
 ---
 
-Have you ever been in a situation where you *had* to remember where you were on a particular day sometime in the past and you have no clue *at all*? Probably you were too ~~drunk~~ absent minded, like me. 
+Have you ever been in a situation where you *had* to remember where you were on a particular day sometime in the past and you have no clue *at all*? Probably you were too <del>drunk</del> absent minded, like me.
 
 
 Don’t worry, I have faced this problem myself several times. So today, I created an automated tool(or recipe, if you prefer) using IFTTT that auto-magically saves your Foursquare/Swarm check-ins to your Google Calender. You're welcome.
@@ -15,7 +15,7 @@ So, what’s IFTTT? Short for ‘If This Then That’, it is a service that inte
 For example, want to save your every new selfie on Instagram to Dropbox? There’s a recipe for that!
 Like a song on SoundCloud? You can make IFTTT download it  to your Dropbox!
 
-There are **tons** of recipes out there, ~~literally~~ . [Go check it out](https://ifttt.com)!
+There are **tons** of recipes out there, <del>literally</del> . [Go check it out](https://ifttt.com)!
 
 
 Now, back to my recipe. Here it is:
@@ -24,4 +24,4 @@ Now, back to my recipe. Here it is:
 
 ![Image of the recipe](http://38.media.tumblr.com/0b5b8689cb5e9ce527212133b35bb877/tumblr_inline_nf3hikyXHH1rrooks.png)
 
-Put the internet to work for you. 
+Put the internet to work for you.
