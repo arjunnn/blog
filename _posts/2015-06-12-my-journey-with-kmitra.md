@@ -69,7 +69,13 @@ kMITRA launched on 22nd October last year, with only a Facebook [page](https://f
 ##**Lessons Learnt**
 Developing kMITRA has taught me a great deal about the technologies behind it. I now see how exhilarating solving problems can be. It has helped me communicate better with my team and put forward my ideas and views in a coherent manner.
 
+Additionally, I designed covers for some of the issues.
+
 One of my most memorable assignments was creating a special [page](http://kmit.in/emagazine/oscars/) for kMITRA's coverage of Oscars 2015.
+
+---------------------------|-----------------------|-----------------------|-------------------------
+![issue-1-cover](https://raw.githubusercontent.com/arjunnn/kmitemag/master/All%20Logos/issue4.png)|![issue-2-cover](https://raw.githubusercontent.com/arjunnn/kmitemag/master/All%20Logos/issue4new.png)|![issue-3-cover](https://raw.githubusercontent.com/arjunnn/kmitemag/master/All%20Logos/issue5.png)|![issue-4-cover](https://raw.githubusercontent.com/arjunnn/kmitemag/master/All%20Logos/issue6.png)
+
 
  I look forward to continue contributing to the magazine during my final year at KMIT.
 
