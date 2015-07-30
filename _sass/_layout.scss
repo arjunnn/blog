@@ -207,7 +207,8 @@
     -moz-border-radius: 5px;
     border-radius: 5px;
     padding-right:5px;
-    background-color: $grey-color-light;
+    background-color: $brand-color;
+    color: white;
 }
 
 
@@ -261,7 +262,7 @@
     }
 }
 
-.post-tag {
+.post-tag a{
     // background-color: yellow;
     text-transform: lowercase;
     background-color: $grey-color-light;
@@ -271,7 +272,7 @@
     padding-left:5px;
     padding-right:5px;
     border:0px solid $brand-color;
-
+    text-decoration: none;
 }
 .nav-prev, .nav-next {
     border: 1px solid $brand-color;
@@ -285,7 +286,10 @@
     background-color: $brand-color;
     color: white;
     text-decoration: none;
-
+}
+.post-tag a:hover {
+  background-color: $grey-color-dark;
+  color: white;
 }
 .nav-prev {
     float: left;
@@ -302,6 +306,15 @@
 	// 	padding-top: 4px;
 	// 	padding-right: 8px;
 	// }
-  > p:first-of-type:first-letter { float: left; color: $text-color; font-size: 75px; line-height: 50px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: Georgia; }
+  > p:first-of-type:first-letter
+    { float: left;
+      color: $text-color;
+      font-size: 75px;
+      padding-top: 4px;
+      line-height: 50px;
+      padding-right: 8px;
+      padding-left: 3px;
+      font-family: Georgia;
+    }
 
 }
