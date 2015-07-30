@@ -271,7 +271,7 @@
     padding-left:5px;
     padding-right:5px;
     border:0px solid $brand-color;
-    
+
 }
 .nav-prev, .nav-next {
     border: 1px solid $brand-color;
@@ -285,11 +285,23 @@
     background-color: $brand-color;
     color: white;
     text-decoration: none;
-    
+
 }
 .nav-prev {
     float: left;
 }
 .nav-next {
     float: right;
+}
+.post-content{
+
+	// > p:first-of-type:first-letter {
+	// 	float: left;
+	// 	font-size: 100px;
+	// 	line-height: 80px;
+	// 	padding-top: 4px;
+	// 	padding-right: 8px;
+	// }
+  > p:first-of-type:first-letter { float: left; color: $text-color; font-size: 75px; line-height: 50px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: Georgia; }
+
 }
