@@ -14,9 +14,9 @@ layout: default
           <span><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">&nbsp;{{ post.title }}</a></span>
         </h2>
         <span class="post-meta">&nbsp;&nbsp;{{ post.date | date: "%b %-d, %Y" }}&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <!--<span class="post-meta">{{ post.summary }}</span>-->
+        <!-- <span class="post-meta">{{ post.excerpt }}</span> -->
         {% for tag in post.tags %}
-          <span class="post-tag post-meta">#{{tag}}&nbsp;</span>
+          <span class="post-tag post-meta"><a href="{{ tags/{{ tag }} | prepend: site.baseurl }}">#{{tag}}&nbsp;</a></span>
         {% endfor %}
       </li>
     {% endfor %}

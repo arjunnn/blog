@@ -4,6 +4,8 @@ title: "My Journey With kMITRA"
 tags: "kmitra"
 date: 2015-06-23-12 05:25:00
 summary: A behind the scenes look of kmit.in/emagazine
+categories:
+  -kmitra
 ---
 ##**Introduction**
 kMITRA is a student-run monthly magazine by the students of [KMIT](http://kmit.in/). The magazine aspires to cover and inform readers about science, culture, art, technology, and issues relevant to the student commmunity, in a coherent manner. [http://kmit.in/emagazine](http://kmit.in/emagazine)
@@ -50,11 +52,14 @@ I handled these requests by modifying the `.htaccess` file of KMIT's Apache serv
 
 {% highlight aconf %}
 
+
 RedirectMatch 301 /newsletter/(.*) http://kmit.in/emagazine/$1
 
 RedirectMatch 301 /kmitra http://kmit.in/emagazine/
 
+
 {% endhighlight %}
+
 
 
 
