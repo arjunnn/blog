@@ -24,6 +24,9 @@
         color: $grey-color-dark;
     }
 }
+.site-title a:hover {
+  text-decoration: none;
+}
 
 .site-nav {
     float: right;
