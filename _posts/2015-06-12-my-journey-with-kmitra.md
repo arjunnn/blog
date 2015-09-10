@@ -12,7 +12,7 @@ kMITRA is a student-run monthly magazine by the students of [KMIT](http://kmit.i
 
 I am the developer and designer of kMITRA, something I really enjoy dedicating my time to. Here's a brief overview and history of the website from a technical standpoint.
 
->This is how we *roll*
+>This is how we *roll* :information_desk_person:
 
 ####**The Logo:**
 ![kmitra logo](../images/kmitra-logo.png)
