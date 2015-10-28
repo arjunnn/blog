@@ -22,8 +22,8 @@ highlighter: pygments
   # extensions: ["strikethrough"]
 
 gems:
-- jekyll-mentions
 - jemoji
+- jekyll-mentions
 - jekyll-redirect-from
 - jekyll-sitemap
 - jekyll-feed

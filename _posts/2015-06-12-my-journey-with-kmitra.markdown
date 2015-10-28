@@ -47,7 +47,6 @@ Since the old magazine, Vipasana, was located at `kmit.in/newsletter` for a long
 I handled these requests by modifying the `.htaccess` file of KMIT's Apache server to include `HTTP 301` redirects.
 
 #####**example:**
-<!--{% gist arjunnn/92066a21c024eef4c480 %}-->
 
 
 {% highlight aconf %}

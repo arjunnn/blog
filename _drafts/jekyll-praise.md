@@ -18,4 +18,3 @@ WordPress is pretty straightforward & easy to use.
 Plus, I had previous experience with the platform thanks to [kMITRA](http://arjun.ninja/blog/my-journey-with-kmitra).
 
 But I wasn't fully convinced. I wanted something better. I wanted to [blog like a hacker](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html).
-[processiong](1)
