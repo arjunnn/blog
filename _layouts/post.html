@@ -16,6 +16,7 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">Published on {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
+  <hr>
   <br>
   <article class="post-content">
      {{content}}
@@ -27,6 +28,8 @@ layout: default
 <span class="post-tag"><a href="{{ site.baseurl }}/tags/{{ tag }}">#{{tag}}&nbsp;</a></span>
 {% endfor %}
   </div>
+  <br>
+  <hr>
   <p> Notice any issues in this post? You can fix it or <a href="https://github.com/arjunnn/blog/issues/new">raise an issue</a> on GitHub.</p>
   <br>
   <div
