@@ -7,6 +7,8 @@ summary: A behind the scenes look of kmit.in/emagazine
 categories:
   -kmitra
 ---
+![journey](../images/photo-1445882679958-91991ef6832f.jpg)
+
 ##**Introduction**
 kMITRA is a student-run monthly magazine by the students of [KMIT](http://kmit.in/). The magazine aspires to cover and inform readers about science, culture, art, technology, and issues relevant to the student commmunity, in a coherent manner. [http://kmit.in/emagazine](http://kmit.in/emagazine)
 
