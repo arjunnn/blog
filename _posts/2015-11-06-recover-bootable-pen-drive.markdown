@@ -2,8 +2,7 @@
 layout: post
 title: "DISKPART saves the day"
 date: 2015-11-06 22:26:00
-categories:
-  -miscellaneous
+tags: "miscellaneous"
 ---
 
 Last month, when my laptop's hard disk failed hard, all my work came to a grinding halt. In a desperate
