@@ -1,13 +1,13 @@
 ---
 layout: post
-title: ""
+title: "DISKPART saves the day"
 date: 2015-11-06 22:26:00
 categories:
   -miscellaneous
 ---
 
 Last month, when my laptop's hard disk failed hard, all my work came to a grinding halt. In a desperate
-attempt to restore order in the universe, I attempted to install Ubuntu on it. So I used two drives, one as a bootable drive and another to actually store the OS and data.
+attempt to restore order to the universe, I attempted to install Ubuntu on it. So I used two drives, one as a bootable drive and another to actually store the OS and data.
 
 Now this make-shift *ghetto* setup worked for a week or so before the performance degradation due to
 running an OS out of a pen drive became too much to handle. I ended up assembling a custom PC and joining
@@ -23,9 +23,10 @@ Here's what I did:
 
 {%highlight bash%}
 
-Run CMD as Administrator
+run CMD as administrator
+diskpart
 list disk
-select disk 4 (mine was 4)
+select disk 4 #mine was 4
 clean
 create partition primary
 active
