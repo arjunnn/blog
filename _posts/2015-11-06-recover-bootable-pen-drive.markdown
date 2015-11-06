@@ -21,7 +21,7 @@ Anyway, when I plugged in the pen drives from before, to my surprise, one of the
 
 Here's what I did:
 
-{%highlight shell%}
+{%highlight bash%}
 
 Run CMD as Administrator
 list disk
