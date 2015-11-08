@@ -16,12 +16,13 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">Published on {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
-  <hr>
   <br>
+  <hr>
   <article class="post-content">
      {{content}}
   </article>
   <br>
+  <hr>
   <div>
     <span>tags:</span>
 {% for tag in page.tags %}
@@ -29,15 +30,14 @@ layout: default
 {% endfor %}
   </div>
   <br>
-  <hr>
-  <p> Notice any issues in this post? You can <a href="https://github.com/arjunnn/blog/issues/new">fix it or raise an issue</a> on GitHub.</p>
-  <br>
   <div
   class="fb-like"
   data-share="true"
   data-width="450"
   data-show-faces="true">
-</div>
+  </div>
+  <p> Notice any issues in this post? You can <a href="https://github.com/arjunnn/blog/issues/new">fix it or raise an issue</a> on GitHub.</p>
+  <br>
 <br><br>
   {% if page.previous %}
         <a rel="prev" class="nav-prev" href="{{ page.previous.url | prepend: site.baseurl }}">&larr; Older</a>
