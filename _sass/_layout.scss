@@ -90,7 +90,12 @@
 
         .page-link {
             display: block;
-            padding: 5px 10px;
+            padding: 0.25em 0.5em;
+        }
+        .page-link:hover {
+          text-decoration: none;
+          background-color: $brand-color;
+          color: white;
         }
     }
 }
