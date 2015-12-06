@@ -44,6 +44,11 @@
          border-radius: 5px;
          border: 2px solid $brand-color;
          padding: 0.25em 0.5em;
+         transition: background-color 0.3s ease;
+          -webkit-transition: background-color 0.3s ease;
+         -moz-transition: background-color 0.3s ease;
+         -ms-transition: background-color 0.3s ease;
+         -o-transition: background-color 0.3s ease;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
