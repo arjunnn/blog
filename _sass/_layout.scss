@@ -43,11 +43,17 @@
          -moz-border-radius: 5px;
          border-radius: 5px;
          border: 2px solid $brand-color;
+         padding: 0.25em 0.5em;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
         }
+    }
+    .page-link:hover {
+      text-decoration: none;
+      background-color: $brand-color;
+      color: white;
     }
 
     @include media-query($on-palm) {
@@ -90,12 +96,6 @@
 
         .page-link {
             display: block;
-            padding: 0.25em 0.5em;
-        }
-        .page-link:hover {
-          text-decoration: none;
-          background-color: $brand-color;
-          color: white;
         }
     }
 }
