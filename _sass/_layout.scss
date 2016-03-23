@@ -42,7 +42,7 @@
         -webkit-border-radius: 10px;
          -moz-border-radius: 10px;
          border-radius: 10px;
-         border: 2px solid $brand-color;
+        //  border: 2px solid $brand-color;
          padding: 0.25em 0.5em;
          transition: background-color 0.3s ease;
           -webkit-transition: background-color 0.3s ease;
@@ -66,8 +66,8 @@
         top: 9px;
         right: 30px;
         background-color: $background-color;
-        border: 0px solid $grey-color-light;
-        border-radius: 0px;
+        border: 1px solid $grey-color-light;
+        border-radius: 5px;
         text-align: right;
 
         .menu-icon {
