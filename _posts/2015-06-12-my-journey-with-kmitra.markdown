@@ -7,7 +7,7 @@ summary: A behind the scenes look of kmit.in/emagazine
 categories:
   -kmitra
 ---
-![journey](../images/photo-1445882679958-91991ef6832f.jpg)
+![journey](./images/photo-1445882679958-91991ef6832f.jpg)
 
 ## **Introduction**
 
@@ -19,7 +19,7 @@ I am the developer and designer of kMITRA, something I really enjoy dedicating m
 
 #### **The Logo:**
 
-![kmitra logo](../images/kmitra-logo.png)
+![kmitra logo](./images/kmitra-logo.png)
 
 ## **Back-End**
 
@@ -73,7 +73,7 @@ The dedication of our readers gives us immense hope for the future of the magazi
 
 #### **Here are some stats:**
 
-![kMITRA Stats](../images/kmitra-stats.jpg)
+![kMITRA Stats](./images/kmitra-stats.jpg)
 
 >Note: These numbers are from Feb-Jun 2015 only. That's when we started collecting data.
 
