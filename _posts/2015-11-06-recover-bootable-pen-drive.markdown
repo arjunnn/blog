@@ -12,7 +12,7 @@ Now this make-shift *ghetto* setup worked for a week or so before the performanc
 running an OS out of a pen drive became too much to handle. I ended up assembling a custom PC and joining
 the [#PCMasterRace](https://twitter.com/hashtag/pcmasterrace).
 
-![pcmasterrace](../images/Glorious_pc_gaming_master_race_by_sasukekun17-d7mdjvo.jpg)
+![pcmasterrace](./images/Glorious_pc_gaming_master_race_by_sasukekun17-d7mdjvo.jpg)
 
 Anyway, when I plugged in the pen drives from before, to my surprise, one of the drives wasn't being recognized by Windows while the other drive showed its capacity as 2MB(!). I, being a noob at such things, thought there was nothing I could do about the drives..
 
