@@ -5,14 +5,14 @@ date: 2016-03-26
 tags: review
 ---
 
-`warning: strongly opionated piece ahead.`
-
 I walked into *Batman V. Superman: Dawn of Justice* with resonable expectations (two dudes fighting) even though Essie Eisenberg's Lex Luthor, in the film's trailers says the following:
 
 > The greatest gladiator match in the history of the world. God versus man. 
 > Day versus night! Son of Krypton versus Bat of Gotham!
 
 *phew!*
+
+`warning: strongly opionated piece ahead.`
 
 However, I felt like the movie overpromised and underdelivered. That doesn't necessarily mean that the movie is garbage; it has a few good tricks up its sleeve. 
 Ben Affleck's portrayal of Batman is surprisingly convincing and adds to the dark and gritty tone of the movie.
