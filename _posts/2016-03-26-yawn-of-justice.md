@@ -22,6 +22,8 @@ Amy Adams as Lois Lane feels like wasted potential.
 My biggest gripe about this movie's casting is Essie Eisenberg as Lex Luthor(Jr?). 
 He has a goofy, socially awkward and almost cartoonish personality and comes accross as annoying and out of place. 
 
+![Wonder Woman](./images/WW.gif)
+
 Coming to the story, the movie picks up right where Man of Steel ends. 
 Bruce Wayne's apprehension towards the Man of Steel and eventually, hate, is beautifully illustrated by Zack Snyder in the build up to the final combat. 
 While it lasts the 'gladiator match' is immensely satisfying and fun to watch. 
