@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Batman V. Superman: Dawn of Justice review"
+title: "Batman v Superman: Dawn of Justice review"
 date: 2016-03-26
 tags: review
 ---
 
-I walked into *Batman V. Superman: Dawn of Justice* with resonable expectations (two dudes fighting) even though Essie Eisenberg's Lex Luthor, in the film's trailers, says the following:
+I walked into *Batman v Superman: Dawn of Justice* with resonable expectations (two dudes fighting) even though Essie Eisenberg's Lex Luthor, in the film's trailers, says the following:
 
 > The greatest gladiator match in the history of the world. God versus man. 
 > Day versus night! Son of Krypton versus Bat of Gotham!
@@ -27,6 +27,8 @@ Bruce Wayne's apprehension towards the Man of Steel and eventually, hate, is bea
 While it lasts the 'gladiator match' is immensely satisfying and fun to watch. 
 However, it only lasts about 10 minutes and before you know it, it's over. 
 While Batman's side of the story is nicely done, Superman's reason to fight does not seem well thought through. That is all that can be said without giving away spoilers.
+
+![Do you bleed? you will.](./images/bat-vs-supes.gif)
 
 *Dawn of Justice* tries to do too many things and mostly falls flat on its face because it does a poor job of tying them together. There are a couple of scenes in the movie that it is better off without, which would have reduced the overly long running time of the film, as well as the snooze-fest of a first half.
 It does however, set a solid foundation for the inevitable *Justice League* movies in the future with references to various charecters in DC Comics' massive universe(s). Some of these references are targeted at comic book nerds and aderent fans of the franchise.
