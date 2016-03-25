@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Batman V. Superman: Dawn of Justice review
+title: "Batman V. Superman: Dawn of Justice review"
 date: 2016-03-26 02:15:00
 tags: review
 ---
