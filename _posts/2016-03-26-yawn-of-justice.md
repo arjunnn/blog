@@ -14,7 +14,7 @@ I walked into *Batman v Superman: Dawn of Justice* with resonable expectations (
 
 `warning: strongly opionated piece ahead.`
 
-However, I felt like the movie overpromised and underdelivered. That doesn't necessarily mean that the movie is garbage; it has a few good tricks up its sleeve. 
+However, I felt like the movie overpromised and underdelivered. That doesn't necessarily mean that the movie is complete garbage; it has a few good tricks up its sleeve. 
 Ben Affleck's portrayal of Batman is surprisingly convincing and adds to the dark and gritty tone of the movie.
 Henry Cavill is likeable as Superman but the *Man of Steel* seemed depressed throughout. 
 Gal Gadot plain kicks ass as Wonder Woman in the few scenes she has in the movie.
@@ -33,7 +33,7 @@ While Batman's side of the story is nicely done, Superman's reason to fight does
 ![Do you bleed? you will.](./images/bat-vs-supes.gif)
 
 *Dawn of Justice* tries to do too many things and mostly falls flat on its face because it does a poor job of tying them together. There are a couple of scenes in the movie that it is better off without, which would have reduced the overly long running time of the film, as well as the snooze-fest of a first half.
-It does however, set a solid foundation for the inevitable *Justice League* movies in the future with references to various charecters in DC Comics' massive universe(s). Some of these references are targeted at comic book nerds and aderent fans of the franchise.
+It does, however, set a solid foundation for the inevitable *Justice League* movies in the future with references to various charecters in DC Comics' massive universe(s). Some of these references are targeted at comic book nerds and aderent fans of the franchise.
 
 
 In conclusion, *Dawn of Justice* is visually stunning and occasionally entertaining. Expect too much from it and you'll be thoroughly disappointed. Don't and you'll leave the cinema hall grinning ear to ear. It probably should've been called *Dawn Of Justice League* or something.
