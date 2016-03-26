@@ -37,6 +37,6 @@ While Batman's side of the story is nicely done, Superman's reason to fight does
 
 *Dawn of Justice* tries to do too many things and mostly falls flat on its face because it does a poor job of tying them together. There are a couple of scenes in the movie that it is better off without, which would have reduced the overly long running time of the film, as well as the snooze-fest of a first half.
 
-It does, however, set a solid foundation for the inevitable *Justice League* movies in the future with references to various characters in DC Comics' massive universe(s). Some of these references are targeted at comic book nerds and ardent fans of the franchise.
+It does however set a solid foundation for the inevitable *Justice League* movies of the future, with references to various characters in DC Comics' massive universe(s). Some of these references are targeted at comic book nerds and ardent fans of the franchise.
 
 In conclusion, *Dawn of Justice* is visually stunning and occasionally entertaining. Expect too much from it and you'll be thoroughly disappointed. Don't and you'll leave the cinema hall grinning ear to ear. It probably should've been called *Dawn Of Justice League* or something.
