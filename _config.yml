@@ -8,6 +8,7 @@ baseurl: "/blog"
 url: "http://arjun.ninja/" # the base hostname & protocol for your site
 twitter_username: arjundot
 github_username:  arjunnn
+snapchat_username: arjun1894
 permalink: :title
 timezone: Asia/Calcutta
 

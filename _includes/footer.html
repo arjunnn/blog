@@ -42,6 +42,16 @@
             </a>
           </li>
           {% endif %}
+
+          {% if site.snapchat_username %}
+          <li>
+            <a href="https://snapchat.com/add/{{ site.snapchat_username }}">
+              <span class="icon icon--snapchat">
+                <img src="http://arjun.ninja/images/snapchat.svg" alt="snapchat logo" />
+              </span>
+              <span class="username">{{ site.snapchat_username }}</span>
+            </a>
+          </li>
         </ul>
       </div>
 
