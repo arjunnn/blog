@@ -2,7 +2,7 @@
 encoding: utf-8
 title: Arjun's Blog
 email: arjunmunji@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: > # this means to ignore newlines until "arjun:"
   Arjun is a Computer Science undergrad and a platform agonistic geek. This is his personal blog.
 baseurl: "/blog"
 url: "http://arjun.ninja/" # the base hostname & protocol for your site
@@ -23,8 +23,8 @@ highlighter: rouge
   # extensions: ["strikethrough"]
 
 gems:
-- jemoji
-- jekyll-mentions
-- jekyll-redirect-from
-- jekyll-sitemap
-- jekyll-feed
+# - jemoji
+# - jekyll-mentions
+# - jekyll-redirect-from
+# - jekyll-sitemap
+# - jekyll-feed
