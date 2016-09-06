@@ -14,7 +14,7 @@ timezone: Asia/Calcutta
 
 
 # Build settings
-markdown: kramdown
+
 kramdown:
   input: GFM
 # markdown: redcarpet
