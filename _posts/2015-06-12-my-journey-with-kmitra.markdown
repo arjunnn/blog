@@ -108,6 +108,6 @@ One of my most memorable assignments was creating a special [page](http://kmit.i
 
 Thanks for reading :)
 
-![That's All Folks!](./images/thatsallfolks.gif)
+![That's All Folks!](/images/thatsallfolks.gif)
 
 *until next time..*
