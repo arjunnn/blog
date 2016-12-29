@@ -62,3 +62,11 @@ Anyway, in this case, we don't even need an `if` statement, or even a ternary op
 return str === str.split("").reverse().join("");  //that's it!
 
 {% endhighlight %}
+
+I'll try to read up on why this happens.
+
+More info here:
+
+[http://stackoverflow.com/a/7046153](http://stackoverflow.com/a/7046153)
+
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
