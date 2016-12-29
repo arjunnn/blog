@@ -38,7 +38,8 @@ becomes this:
 function palindrome(str) {
   var re = /[^a-z 0-9]/gi;
   str = str.replace(re, "").toLowerCase().split(" ").join("");
-  return str === str.split("").reverse().join("") ? true : false; //note the difference and redundancy
+  return str === str.split("").reverse().join("") ? true : false;
+  //notice the difference and redundancy
 }
 
 palindrome("_RaceCar__");
@@ -54,7 +55,8 @@ str === str.split("").reverse().join("") ? return true : return false; //NOPE.
 {% endhighlight %}
 
 Anyway, in this case, we don't even need an `if` statement, or even a ternary operator.
- We can just return the result of the comparision.  ¯\_(ツ)_/¯
+ We can just return the result of the comparision.  🤷
+
  like so:
 
 {% highlight javascript %}
