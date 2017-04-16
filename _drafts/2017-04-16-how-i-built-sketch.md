@@ -19,9 +19,13 @@ So to dig deeper, I scoured the internet for resources and found myself on MDN.
 
 ## Process
 
+First, I noted down the functionality my app would provide:
+
+![User Stories](images/user-stories.jpg)
+
 Here's an initial UI mockup:
 
-![UI Mockup](/./images/ui-mockup.jpg)
+![UI Mockup](images/ui-mockup.jpg)
 
 I started by building whatever I had learned during the Canvas course.
 With little effort, I had a canvas to draw on and a function to listen to mouse events.
