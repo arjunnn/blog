@@ -4,8 +4,8 @@ title: Arjun's Blog
 email: arjunmunji@gmail.com
 description: > # this means to ignore newlines until "arjun:"
   Arjun is a Computer Science undergrad and a platform agonistic geek. This is his personal blog.
-baseurl: "/blog"
-url: "http://arjun.ninja/" # the base hostname & protocol for your site
+# baseurl: "/blog"
+url: "https://arjun.ninja/blog" # the base hostname & protocol for your site
 twitter_username: arjundot
 github_username:  arjunnn
 snapchat_username: arjun1894
