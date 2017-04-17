@@ -52,7 +52,7 @@ Unfortunately, this hack was of no use in mobile browsers because apparently mob
 I said screw it, ship it. And that's how I got to my MVP, two days after I started from scratch.
 I launched the website on GitHub Pages and got good reviews from my cool friends.
 
-This was v1:
+**This was v1:**
 
 <video autoplay="autoplay" loop="loop" muted="muted" width="100%" preload="auto"> <source src="images/sketch-v1.mp4"> </video>
 
@@ -62,3 +62,5 @@ Meanwhile, I thought of another feature:
 **A unique share URL for every sketch**.
 
 ## Sketch v2
+
+*To be continued...*
