@@ -40,14 +40,16 @@ For this, I used the canvas API's `toDataURL()` method to convert the canvas to 
 
 {% highlight html %}
 
-<a href="#" download="drawing.png" onclick="saveImage()" class="action">Download sketch</a>
+<a href="#" download="drawing.png" onclick="saveImage()" class="action">
+  Download sketch
+</a>
 
 {% endhighlight %}
 
 The `download` attribute triggers a save dialogue in the browser when the link is clicked.
 Unfortunately, this hack was of no use in mobile browsers because apparently mobile browsers don't automatically decode base64 strings.
 
-I said screw it, ship it. And that's how I got to my MVP, 2 days after I started from scratch.
+I said screw it, ship it. And that's how I got to my MVP, two days after I started from scratch.
 I launched the website on GitHub Pages and got good reviews from my cool friends.
 
 This was v1:
