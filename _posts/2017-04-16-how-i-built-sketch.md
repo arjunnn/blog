@@ -32,7 +32,7 @@ Here's an initial UI mockup:
 
 I then added a colour palette, a brush width selector, and a multi-colour brush. The multi-colour brush is my favorite.
 
-<video autoplay="autoplay" loop="loop" muted="muted" width="100%" preload="auto"> <source src="images/sketch-color-selection.mp4"> </video>
+<video autoplay loop muted width="100%" preload="auto" playsinline> <source src="images/sketch-color-selection.mp4"> </video>
 
 I then added touch and multi-touch, with the help of MDN's excellent [guide](https://developer.mozilla.org/en-US/docs/Web/API/Touch_events) to adding touch input to canvases. There was only one feature remaining in my list: Saving sketches as images.
 
@@ -54,7 +54,7 @@ I launched the website on GitHub Pages and got good reviews from my cool friends
 
 **This was v1:**
 
-<video autoplay="autoplay" loop="loop" muted="muted" width="100%" preload="auto"> <source src="images/sketch-v1.mp4"> </video>
+<video autoplay loop muted width="100%" preload="auto" playsinline> <source src="images/sketch-v1.mp4"> </video>
 
 
 But the lack of mobile save option still bugged me.
