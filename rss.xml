@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Arjun's Blog]]></title><description><![CDATA[Arjun's blog]]></description><link>https://arjun.ninja/blog/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 05 Jan 2019 07:12:04 GMT</lastBuildDate><item><title><![CDATA[2018 In Review]]></title><description><![CDATA[I’ve always wanted to do an ‘year in review’ kinda post to help me reflect upon the year passed and see how it has affected me.
+At least it…]]></description><link>https://arjun.ninja/blog//2018-in-review/</link><guid isPermaLink="false">https://arjun.ninja/blog//2018-in-review/</guid><pubDate>Sat, 05 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I’ve always wanted to do an ‘year in review’ kinda post to help me reflect upon the year passed and see how it has affected me.
+At least it gives me a moment to appreciate all the good that has happened in the past year, and hopefully learn from the mistakes I’ve made.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;p&gt;At the end of 2017, I joined MedleyMed
+&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, an e-commerce company  as a full-stack product engineer. It has been a great learning curve, given that it is my first real job and that I had to learn Python and Django, the stack the product is based on, from scratch.&lt;/p&gt;
+&lt;p&gt;I immediately fell in love with Python — it is a well designed, easy to understand language that is so flexible that a noob developer such as myself can start building apps in no time, and yet powerful enough to be used to solve complex scientific problems. Django felt quirky in the beginning but as I started using it, I realised how mature and fully featured the framework and its ecosystem is. Apart from these two, I also dipped my toes into PostgreSQL 🤞, wrangled with Git 💪, wept over Vim 😫, made peace with Linux 😇, and mastered VSCode 🤓.&lt;/p&gt;
+&lt;p&gt;Of course, writing code is only a part of my job. I also had to sit through countless meetings, discussions and demos. I learned how important it is to plan out your work and strategy before writing even a single line of code. I’ve missed a good number of deadlines thanks to my poor planning. Although some of it can be attributed to my sub-par debugging and backtracking skills.&lt;sup id=&quot;fnref-2&quot;&gt;&lt;a href=&quot;#fn-2&quot; class=&quot;footnote-ref&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; It is something I want to fix in 2019.&lt;/p&gt;
+&lt;p&gt;My coworkers have been super supportive and helpful throughout and the structure of our team is such that often times we solve problems in collaborative, not-quite-pair-programming kinda ways. I also got to mentor a new member of the team for a few weeks. It was super fun, although I feel like I could’ve been more helpful and approachable to my mentee.&lt;sup id=&quot;fnref-3&quot;&gt;&lt;a href=&quot;#fn-3&quot; class=&quot;footnote-ref&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Personal&lt;/h2&gt;
+&lt;p&gt;I took a bunch of bite-sized vacations this year, and it was super fun to break away from work for a few days at a time and return energized. I Collected a ton of happy little memories from all the places — A road trip to Bangalore, a weekend getaway to Pondicherry, a weeklong trip to Delhi, and a day trip to Gulbarga. I realised that I’d been missing out on the fun of travelling and I will make an effort to travel more this year.&lt;/p&gt;
+&lt;p&gt;Speaking of efforts, I really made an effort to be in touch with my close friends and spend time hanging out with them. I’m only now beginning to understand the value of deep, meaningful friendships and the effort it takes to foster them. My friends still think I’m not trying hard enough so this year it is going to be a quite a challenge 😅.&lt;/p&gt;
+&lt;p&gt;Another effort I made(am making) is to form habits. One of my overarching goals is to be fluent in German by next year.
+So I’m making it a habit to practice the language for 20 minutes everyday before bed.
+Similarly, I’m strictly following the &lt;a href=&quot;https://en.wikipedia.org/wiki/Pomodoro_Technique&quot;&gt;Pomodoro&lt;/a&gt; technique at work since the past few weeks.
+I don’t know what it is about the Human mind and incentive based stimuli, but it has worked wonders for my productivity.&lt;sup id=&quot;fnref-4&quot;&gt;&lt;a href=&quot;#fn-4&quot; class=&quot;footnote-ref&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;
+Also, in October last year, I started learning touch typing on a whim. In about 3 months, now my typing speed is ~60 WPM. I’m proud of myself for that and I’m more amazed by how quickly our muscles can learn, unlearn, and relearn.&lt;/p&gt;
+&lt;p&gt;It has not been all sunshine and rainbows for me though. I gained weight and I haven’t exercised in more than a year, except for the occasional cycle rides. That is something I look to improve in 2019.&lt;/p&gt;
+&lt;p&gt;Although I didn’t plan on it, I ended up reading a ton of books in the past year. Thanks to my hour long commute, I have almost a couple of hours every day to pass time. I spend most of that time on my Kindle. I’ll probably write another blog post to share what I read.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;Other Stuff to look forward to in 2019&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;In the last week of December I finally got around to finishing the React Course I purchased in 2017 (😲, yes I know) and I think it &lt;strong&gt;finally&lt;/strong&gt; clicked for me. Just three years later, no biggie 😅. I’ve since been obsessively learing everything I can about React. In fact, I brought this blog back to life just so I could learn Gatsby and remake my blog. So I’m seriously going to use React at work and elsewhere because it is &lt;strong&gt;so&lt;/strong&gt; good!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;More books! I can’t read enough books.&lt;sup id=&quot;fnref-5&quot;&gt;&lt;a href=&quot;#fn-5&quot; class=&quot;footnote-ref&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Deliberate choices about time spent in activites, in terms of risk, reward and strength&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Audit relationships regularly, discuss long-term priorities, issues etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ship more stuff, even if it is just MVPs. “Better done than perfect”.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Understand how the world works&lt;sup id=&quot;fnref-6&quot;&gt;&lt;a href=&quot;#fn-6&quot; class=&quot;footnote-ref&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Making lots of lists &lt;sup id=&quot;fnref-7&quot;&gt;&lt;a href=&quot;#fn-7&quot; class=&quot;footnote-ref&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Unlearn and Relearn Math (A man can dream…)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&quot;fn-1&quot;&gt;
+&lt;p&gt; The product I work on is &lt;a href=&quot;https://biz.medleymed.com&quot;&gt;https://biz.medleymed.com&lt;/a&gt;. It aims to solve really complex logistical and supply-chain problems in the B2B pharmaceutical industry.&lt;/p&gt;
+&lt;a href=&quot;#fnref-1&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn-2&quot;&gt;
+&lt;p&gt; I legit spent multiple hours on stupid bugs more times than I’d like to admit&lt;/p&gt;
+&lt;a href=&quot;#fnref-2&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn-3&quot;&gt;
+&lt;p&gt; I’m still not sure how I feel about this.. I tried to strike a balance between hands off and spoon feeding, just letting them figure stuff out from clues and pointers. But I do feel guilty idk.&lt;/p&gt;
+&lt;a href=&quot;#fnref-3&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn-4&quot;&gt;
+&lt;p&gt; Highly recommend this fun little app if you’re interested in a Pomodoro app: &lt;a href=&quot;https://itunes.apple.com/in/app/bft-bear-focus-timer/id1328806990&quot;&gt;https://itunes.apple.com/in/app/bft-bear-focus-timer/id1328806990&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;#fnref-4&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn-5&quot;&gt;
+&lt;p&gt; &lt;a href=&quot;https://twitter.com/ASmallFiction/status/1027790488865107968&quot;&gt;https://twitter.com/ASmallFiction/status/1027790488865107968&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;#fnref-5&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn-6&quot;&gt;
+&lt;p&gt; &lt;a href=&quot;https://twitter.com/jackerhack/status/1040472413039779840&quot;&gt;https://twitter.com/jackerhack/status/1040472413039779840&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;#fnref-6&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn-7&quot;&gt;
+&lt;p&gt; &lt;a href=&quot;https://twitter.com/david_perell/status/1071836429058232320&quot;&gt;https://twitter.com/david_perell/status/1071836429058232320&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;#fnref-7&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[How I Built Sketch]]></title><description><![CDATA[Over the last week, I built a fun ™  and cool ™  web app to draw doodles and simple drawings.
+I appropriately named it  Sketch . You can…]]></description><link>https://arjun.ninja/blog//how-i-built-sketch/</link><guid isPermaLink="false">https://arjun.ninja/blog//how-i-built-sketch/</guid><pubDate>Sun, 16 Apr 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Over the last week, I built a fun™ and cool™ web app to draw doodles and simple drawings.
+I appropriately named it &lt;strong&gt;Sketch&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;You can check it out here: &lt;a href=&quot;https://sketch.arjun.ninja&quot;&gt;https://sketch.arjun.ninja&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Why&lt;/h2&gt;
+&lt;p&gt;I got the idea for Sketch while I was checking out the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API&quot;&gt;article&lt;/a&gt; for HTML5 Canvas on MDN.
+Now why was I doing that? Because I recently completed Wes Bos’ &lt;a href=&quot;https://javascript30.com&quot;&gt;JavaScript30&lt;/a&gt; course (great course btw, highly recommend!) and used Canvas element in one of the course lessons.
+I was immediately blown away by its capabilities and potential.
+So to dig deeper, I scoured the internet for resources and found myself on MDN.&lt;/p&gt;
+&lt;h2&gt;Process&lt;/h2&gt;
+&lt;p&gt;First, I noted down the functionality my app would provide. writing it down helped me focus and build a &lt;a href=&quot;https://en.wikipedia.org/wiki/Minimum_viable_product&quot;&gt;Minimum Viable Product&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/ef41a98dbfa08c0f24572f18f4113d44/2d7b7/user-stories.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 82.05944798301485%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAe5QeWhkL//EABgQAAIDAAAAAAAAAAAAAAAAABARABIh/9oACAEBAAEFArYw4x//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAaEAACAgMAAAAAAAAAAAAAAAAAARARIVFh/9oACAEBAAE/IVZB9FvYsY2f/9oADAMBAAIAAwAAABCUH//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/EIf/xAAbEAEAAwEBAQEAAAAAAAAAAAABABEhMUFRkf/aAAgBAQABPxDQLdG/YhydVq2++R0hfCa6v4zejP/Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;User Stories&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/ef41a98dbfa08c0f24572f18f4113d44/f8fb9/user-stories.jpg&quot;
+        srcset=&quot;/blog/static/ef41a98dbfa08c0f24572f18f4113d44/e8976/user-stories.jpg 148w,
+/blog/static/ef41a98dbfa08c0f24572f18f4113d44/63df2/user-stories.jpg 295w,
+/blog/static/ef41a98dbfa08c0f24572f18f4113d44/f8fb9/user-stories.jpg 590w,
+/blog/static/ef41a98dbfa08c0f24572f18f4113d44/85e3d/user-stories.jpg 885w,
+/blog/static/ef41a98dbfa08c0f24572f18f4113d44/2d7b7/user-stories.jpg 942w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;I started by building whatever I had learned during the Canvas course.
+With little effort, I had a canvas to draw on and a function to listen to mouse events and translate them to ink on the canvas.&lt;/p&gt;
+&lt;p&gt;Here’s an initial UI mockup:&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/d3bd2d010987f2d771130d04277de44a/8257f/ui-mockup.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 134.18693982074262%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMCAQT/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAfV2Vc0IjqWqswP/xAAZEAACAwEAAAAAAAAAAAAAAAAQEQABIDH/2gAIAQEAAQUCZrpceP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABQQAQAAAAAAAAAAAAAAAAAAADD/2gAIAQEABj8CT//EABwQAAICAgMAAAAAAAAAAAAAAAABESEQcSBB8P/aAAgBAQABPyFwdIlvuBbY02IucJnlGnD/2gAMAwEAAgADAAAAEAs2wf/EABYRAAMAAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPxAj/8QAFREBAQAAAAAAAAAAAAAAAAAAEAH/2gAIAQIBAT8QIf/EABsQAQEBAAMBAQAAAAAAAAAAAAERACExQXGB/9oACAEBAAE/EEIBpXmYGL+GEOz65map09EwIro68zbnKrScQ5w6cslY+cUUR9Nc9Wvnuu//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;UI Mockup&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/d3bd2d010987f2d771130d04277de44a/f8fb9/ui-mockup.jpg&quot;
+        srcset=&quot;/blog/static/d3bd2d010987f2d771130d04277de44a/e8976/ui-mockup.jpg 148w,
+/blog/static/d3bd2d010987f2d771130d04277de44a/63df2/ui-mockup.jpg 295w,
+/blog/static/d3bd2d010987f2d771130d04277de44a/f8fb9/ui-mockup.jpg 590w,
+/blog/static/d3bd2d010987f2d771130d04277de44a/8257f/ui-mockup.jpg 781w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;I then added a colour palette, a brush width selector, and a multi-colour brush. The multi-colour brush is my favorite.&lt;/p&gt;
+&lt;p&gt;&lt;video autoplay loop muted width=&quot;100%&quot; preload=&quot;auto&quot; playsinline src=&quot;/blog/sketch-color-selection-ff0503bc8bbee531ed7580a31950f1c7.mp4&quot;&gt; &lt;/video&gt;&lt;/p&gt;
+&lt;p&gt;I then added touch and multi-touch, with the help of MDN’s excellent &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Touch_events&quot;&gt;guide&lt;/a&gt; to adding touch input to canvases. There was only one feature remaining in my list: Saving sketches as images.&lt;/p&gt;
+&lt;p&gt;For this, I used the canvas API’s &lt;code class=&quot;language-text&quot;&gt;toDataURL()&lt;/code&gt; method to convert the canvas to a base64 encoded string of &lt;code class=&quot;language-text&quot;&gt;image/png&lt;/code&gt; type, which I then set as the &lt;code class=&quot;language-text&quot;&gt;href&lt;/code&gt; in my download link element.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;#&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;download&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;drawing.png&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;onclick&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;saveImage()&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;action&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  Download sketch
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The &lt;code class=&quot;language-text&quot;&gt;download&lt;/code&gt; attribute triggers a save dialogue in the browser when the link is clicked.
+Unfortunately, this hack was of no use in mobile browsers because apparently mobile browsers don’t automatically decode base64 strings.&lt;/p&gt;
+&lt;p&gt;I said screw it, ship it. And that’s how I got to my MVP, two days after I started from scratch.
+I launched the website on GitHub Pages and got good reviews from my cool friends.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This is v1:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;video autoplay loop muted width=&quot;100%&quot; preload=&quot;auto&quot; playsinline src=&quot;/blog/sketch-v1-1053b590eeb152b52601221ecfe648e9.mp4&quot;&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;!-- But the lack of mobile save option still bugged me.
+Meanwhile, I thought of another feature:
+**A unique share URL for every sketch**.
+
+## Sketch v2
+
+*To be continued...* --&gt;</content:encoded></item><item><title><![CDATA[Jadoo]]></title><description><![CDATA[When I saw  Koi Mil Gaya  for the first time in 2003, it quickly became one of my favourite movies.
+It had elements such as an underdog to…]]></description><link>https://arjun.ninja/blog//jadoo/</link><guid isPermaLink="false">https://arjun.ninja/blog//jadoo/</guid><pubDate>Thu, 15 Dec 2016 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;When I saw &lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Koi..._Mil_Gaya&quot;&gt;Koi Mil Gaya&lt;/a&gt;&lt;/em&gt; for the first time in 2003, it quickly became one of my favourite movies.
+It had elements such as an underdog to achiever storyline, aliens, friendship, and comedy.
+The combination of all these, along with Hrithik Roshan’s brilliant performance won me over.
+I hadn’t yet seen &lt;em&gt;E.T.&lt;/em&gt; then and this movie was the closest my 8 year old self had come to alien sci-fi adventure.&lt;/p&gt;
+&lt;p&gt;Over the years, among other things, the distinct theme music of the film stuck with me as did the computer interface used in the movie to communicate with aliens.&lt;/p&gt;
+&lt;p&gt;So as a tribute, I combined both of those to create &lt;strong&gt;&lt;a href=&quot;http://arjun.ninja/jadoo&quot;&gt;Jadoo&lt;/a&gt;&lt;/strong&gt;, a web app that attempts to replicate the interface from the film. Works only in Chrome/Opera now. Try it with sound!&lt;/p&gt;
+&lt;p&gt;Check out the source &lt;a href=&quot;https://github.com/arjunnn/jadoo&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://arjun.ninja/jadoo&quot;&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.22254758418741%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABxElEQVQoz1VQy3LTQBDUwSGysLUzsy+t3quHMZFjGRygKsGk4MSJULyO3DjB/58Zybmkqmtrp3e7p2cC1WJ/D/U7UDXqknSNzDDyXVEfmnqsq0PRvMV0i9KjbDC9xvKI+YjtLQQmk0Un80KxOD6t8ZWwRjGqpm6Hvtl1vqrdAdRroZ00idR2RiKVkYGxki2XX8OLv4vFv0X0I8SjoL1QGUgHVMfr2+fLh+X6fiXu1tHPMPoeKo/sYtNZrCtaf1pFX5arz1H0LVz+CuOPK1NKmynVE94IHEX8fvXsz8Xl70saBSvPCHROOpOc06SSP8GbmL3YkUsehIc0Wmq+V0RXoAt+UpNkVgWqwQm8JD+fJamazqXsUV6B7dFsUDc0PZ3/NKhbtBsMHjNYqTrEPUz2+dw5mRomPY4n6q6pHUibx7S8sNzT+IHF5x2WxJm5pxyABpimYL4gWVK3Jz/QcId5S3oeh1ededqdMNCOTMKREA+xagCOsezAWGJe5Wg6ZHHRU7khk07kxCfkKnpxg4HSdIasELaCWlCWGNqQSklV6DIyjizL7FMYCtwW3EuR9OAqcB6S+Uw9GA/UAW0EVSD9jOYpPPwHcw1BpZ6nOL4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;jadoo screenshot&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/25b7318b24363fd87fc274d41788698a/fb8a0/jadoo.png&quot;
+        srcset=&quot;/blog/static/25b7318b24363fd87fc274d41788698a/1a291/jadoo.png 148w,
+/blog/static/25b7318b24363fd87fc274d41788698a/2bc4a/jadoo.png 295w,
+/blog/static/25b7318b24363fd87fc274d41788698a/fb8a0/jadoo.png 590w,
+/blog/static/25b7318b24363fd87fc274d41788698a/526de/jadoo.png 885w,
+/blog/static/25b7318b24363fd87fc274d41788698a/fa2eb/jadoo.png 1180w,
+/blog/static/25b7318b24363fd87fc274d41788698a/f64ac/jadoo.png 1366w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Reading Sci-Fi]]></title><description><![CDATA[Came across this gem on twitter last week: I just finished reading  Ready Player One  and this is similar to how I felt in some parts of the…]]></description><link>https://arjun.ninja/blog//reading-sci-fi/</link><guid isPermaLink="false">https://arjun.ninja/blog//reading-sci-fi/</guid><pubDate>Tue, 06 Sep 2016 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Came across this gem on twitter last week:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Raymond Chandler owning all science fiction writers and casually inventing Google in a letter from 1953 &lt;a href=&quot;https://t.co/NHk5Oxy8nd&quot;&gt;pic.twitter.com/NHk5Oxy8nd&lt;/a&gt;&lt;/p&gt;&amp;mdash; Andy Cush (@cushac) &lt;a href=&quot;https://twitter.com/cushac/status/771390995825123328&quot;&gt;September 1, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;p&gt;I just finished reading &lt;a href=&quot;http://www.amazon.in/Ready-Player-One-Ernest-Cline/dp/0099560437/ref=sr_1_1?ie=UTF8&amp;#x26;qid=1473148370&amp;#x26;sr=8-1&amp;#x26;keywords=ready+player+one&quot;&gt;Ready Player One&lt;/a&gt; and this is similar to how I felt in some parts of the book. The book is laden with 80s pop culture references; most of which I’ve never heard of before. Not that I didn’t like the book as a whole, but y’know.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[DISKPART saves the day]]></title><description><![CDATA[Last month, when my laptop’s hard disk failed hard, all my work came to a grinding halt. In a desperate
+attempt to restore order to the…]]></description><link>https://arjun.ninja/blog//diskpart-saves-the-day/</link><guid isPermaLink="false">https://arjun.ninja/blog//diskpart-saves-the-day/</guid><pubDate>Fri, 06 Nov 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Last month, when my laptop’s hard disk failed hard, all my work came to a grinding halt. In a desperate
+attempt to restore order to the universe, I installed Ubuntu on it. I used two pen drives; one as a bootable drive and the other to actually store the OS and data.&lt;/p&gt;
+&lt;p&gt;Now this make-shift setup worked for a week or so before the performance degradation due to
+running an OS out of a pen drive became too much to handle. I ended up assembling a custom PC and joining
+the &lt;a href=&quot;https://twitter.com/hashtag/pcmasterrace&quot;&gt;#PCMasterRace&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- ![pcmasterrace](./images/Glorious_pc_gaming_master_race_by_sasukekun17-d7mdjvo.jpg) --&gt;
+&lt;p&gt;Anyway, when I plugged in the pen drives from before, to my surprise, one of the drives wasn’t being recognized by Windows while the other drive showed its capacity as 2MB(!). I, being a noob at such things, thought there was nothing I could do about the drives..&lt;/p&gt;
+&lt;p&gt;..until I came across &lt;code class=&quot;language-text&quot;&gt;DISKPART&lt;/code&gt; utility after thorough googling.&lt;/p&gt;
+&lt;p&gt;Here’s what I did:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;run CMD as administrator
+diskpart
+list disk
+&lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; disk 4 &lt;span class=&quot;token comment&quot;&gt;#mine was 4&lt;/span&gt;
+clean
+create partition primary
+active
+&lt;span class=&quot;token function&quot;&gt;format&lt;/span&gt; fs&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;ntfs quick
+assign
+&lt;span class=&quot;token keyword&quot;&gt;exit&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[My Journey With kMITRA]]></title><description><![CDATA[Introduction kMITRA is a student-run monthly magazine by the students of  KMIT . The magazine aspires to cover and inform readers about…]]></description><link>https://arjun.ninja/blog//my-journey-with-kmitra/</link><guid isPermaLink="false">https://arjun.ninja/blog//my-journey-with-kmitra/</guid><pubDate>Tue, 23 Jun 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/af610840426bb6340594a668a8cc5cb0/a402e/photo-1445882679958-91991ef6832f.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.60000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYBAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAABvMeEYRdG/8QAHBAAAQMFAAAAAAAAAAAAAAAAAAECAxAREhMU/9oACAEBAAEFAmzKh0Ny2Rlxaf/EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPwGIiP/EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPwEW1v/EABwQAAEDBQAAAAAAAAAAAAAAAAEAEBEhIjEycf/aAAgBAQAGPwK6DxVwtwwb/8QAHBABAAIBBQAAAAAAAAAAAAAAAQARECExQWGB/9oACAEBAAE/IQWvboggoi5vaDEFxPox/9oADAMBAAIAAwAAABAc3//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/EFJf/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QFL//xAAbEAADAAIDAAAAAAAAAAAAAAAAAREhMUFhgf/aAAgBAQABPxBYqEsNTXvgQO0Wv0oVigS2kGWlsw9o/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;journey&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/af610840426bb6340594a668a8cc5cb0/f8fb9/photo-1445882679958-91991ef6832f.jpg&quot;
+        srcset=&quot;/blog/static/af610840426bb6340594a668a8cc5cb0/e8976/photo-1445882679958-91991ef6832f.jpg 148w,
+/blog/static/af610840426bb6340594a668a8cc5cb0/63df2/photo-1445882679958-91991ef6832f.jpg 295w,
+/blog/static/af610840426bb6340594a668a8cc5cb0/f8fb9/photo-1445882679958-91991ef6832f.jpg 590w,
+/blog/static/af610840426bb6340594a668a8cc5cb0/85e3d/photo-1445882679958-91991ef6832f.jpg 885w,
+/blog/static/af610840426bb6340594a668a8cc5cb0/a402e/photo-1445882679958-91991ef6832f.jpg 1000w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;kMITRA is a student-run monthly magazine by the students of &lt;a href=&quot;http://kmit.in/&quot;&gt;KMIT&lt;/a&gt;. The magazine aspires to cover and inform readers about science, culture, art, technology, and issues relevant to the student commmunity, in a coherent manner. &lt;a href=&quot;http://kmit.in/emagazine&quot;&gt;http://kmit.in/emagazine&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I am the developer and designer of kMITRA, something I really enjoy dedicating my time to. Here’s a brief overview and history of the website from a technical standpoint.&lt;/p&gt;
+&lt;!-- &gt;This is how we *roll* &amp;nbsp; :information_desk_person: --&gt;
+&lt;h4&gt;&lt;strong&gt;The Logo:&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/95875c98caafd0ce9fed82312d36650e/17f42/kmitra-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 585px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 15.042735042735043%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA5klEQVQI1x2NQUvCAABG92f8DZ78O97Eo9clCB5E8KIgIghLPRgtZgcPRbYm0kgyN62NSmQriNSimWHT59x3ee+dPmG12uD7WxoNm3Rap1AY0mo9U69bZLMDEolrOp0ZyaQa8jBRvMU056F76z/ePz5xXZflYoFQrY5JpTSaTZto9CTwHu32FFl+pdt1KJcNLOuLWOyUfP4ex/GIRKTg+IHf9Tc3eo/++TFD7YKZbSLI8gu53IBKZUyt9kipZIRUlCmq+oYkPTGZLInHrygWR0FbZDJ3iEc6/v+W+Y/H2aWCMdJgt2EPfubA1pNW+I8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;kmitra logo&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/95875c98caafd0ce9fed82312d36650e/17f42/kmitra-logo.png&quot;
+        srcset=&quot;/blog/static/95875c98caafd0ce9fed82312d36650e/2a66c/kmitra-logo.png 148w,
+/blog/static/95875c98caafd0ce9fed82312d36650e/b31da/kmitra-logo.png 295w,
+/blog/static/95875c98caafd0ce9fed82312d36650e/17f42/kmitra-logo.png 585w&quot;
+        sizes=&quot;(max-width: 585px) 100vw, 585px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Back-End&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The website runs on the &lt;a href=&quot;https://wordpress.org&quot;&gt;WordPress&lt;/a&gt; platform.
+We chose WordPress as our back-end because we believe in the future of WordPress, as a simple, community driven, scalable, and endlessly extensible publishing platform.
+More than &lt;strong&gt;71 million&lt;/strong&gt; people can’t be wrong. Also because it’s free, lol. &lt;/p&gt;
+&lt;!-- :laughing: --&gt;
+&lt;h2&gt;&lt;strong&gt;Content&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Most of the content, such as text and images is hosted on KMIT’s own webservers, organized and indexed by the WordPress CMS(Content Management System).
+Videos, however, are hosted on our &lt;a href=&quot;https://www.youtube.com/channel/UCVy33lRaRxA8ACd-QU2Gumw&quot;&gt;YouTube channel&lt;/a&gt;.
+Newsletters are distributed to subscribers in bulk via a &lt;a href=&quot;https://mailchimp.com/&quot;&gt;Mailchimp&lt;/a&gt; server.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Baby Steps&lt;/strong&gt;&lt;/h2&gt;
+&lt;h4&gt;&lt;strong&gt;Plugins&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;kMITRA was required to be a periodical magazine, with new issues every month.
+By default, WordPress does not provide management functionality for periodicals.
+After days of head scratching, we finally found a &lt;a href=&quot;https://wordpress.org/plugins/issuem/&quot;&gt;plugin&lt;/a&gt; that provided a basic structure for handling issue-based publications within WordPress.
+This meant that I did not have to start coding from scratch. A few custom functions later, we were satisfied with its functionality.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Design&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;We then moved on to design. While deciding the font, we were looking for type that had excellent legibility and was optimized for all screen sizes;
+so we chose the &lt;a href=&quot;https://www.google.com/fonts/specimen/Open+Sans&quot;&gt;Open Sans&lt;/a&gt; typeface for all the text and &lt;a href=&quot;https://www.google.com/fonts/specimen/Playfair+Display&quot;&gt;Playfair Display&lt;/a&gt; typeface for bold, eye-catching Headlines.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Layout&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;The layout or UI is the first thing a reader notices when looking at a website. We needed something elegant and functional for kMITRA, with generous use of negative space to let the user focus on the actual content. It was fairly easy to achieve the desired look of the website using a base theme and custom CSS.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Migration&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Since the old magazine, Vipasana, was located at &lt;code class=&quot;language-text&quot;&gt;kmit.in/newsletter&lt;/code&gt; for a long time, search engines such as google provided links for Vipasana articles using the old URL. This lead to a number of &lt;code class=&quot;language-text&quot;&gt;404: NOT FOUND&lt;/code&gt; error messages.
+I handled these requests by modifying the &lt;code class=&quot;language-text&quot;&gt;.htaccess&lt;/code&gt; file of KMIT’s Apache server to include &lt;code class=&quot;language-text&quot;&gt;HTTP 301&lt;/code&gt; redirects.&lt;/p&gt;
+&lt;h5&gt;&lt;strong&gt;example:&lt;/strong&gt;&lt;/h5&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;apacheconfig&quot;&gt;&lt;pre class=&quot;language-apacheconfig&quot;&gt;&lt;code class=&quot;language-apacheconfig&quot;&gt;RedirectMatch 301 /newsletter/(.*) http://kmit.in/emagazine/$1
+RedirectMatch 301 /kmitra http://kmit.in/emagazine/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;&lt;strong&gt;Reception&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;kMITRA launched on 22nd October last year, with only a Facebook &lt;a href=&quot;https://facebook.com/kmitrakmit&quot;&gt;page&lt;/a&gt; for publicity.
+The response was, and continues to be tremendous. It has exceeded all of our expectations.
+The entire team of kMITRA is overjoyed.
+The dedication of our readers gives us immense hope for the future of the magazine and a sense of responsibility towards delivering quality and engaging content.&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;Here are some stats:&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/ae911d3bbfc2934e2356c860034f287f/ec7a3/kmitra-stats.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 16.518424396442185%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAADABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAd0JQf/EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEAAQUCf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEABj8Cf//EABgQAQADAQAAAAAAAAAAAAAAAAABEUFh/9oACAEBAAE/IeMpD//aAAwDAQACAAMAAAAQjD//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAZEAEBAQADAAAAAAAAAAAAAAABEQAhQVH/2gAIAQEAAT8QCXpkrVk9yYc7/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;kMITRA Stats&quot;
+        title=&quot;&quot;
+        src=&quot;/blog/static/ae911d3bbfc2934e2356c860034f287f/f8fb9/kmitra-stats.jpg&quot;
+        srcset=&quot;/blog/static/ae911d3bbfc2934e2356c860034f287f/e8976/kmitra-stats.jpg 148w,
+/blog/static/ae911d3bbfc2934e2356c860034f287f/63df2/kmitra-stats.jpg 295w,
+/blog/static/ae911d3bbfc2934e2356c860034f287f/f8fb9/kmitra-stats.jpg 590w,
+/blog/static/ae911d3bbfc2934e2356c860034f287f/ec7a3/kmitra-stats.jpg 787w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note: These numbers are from Feb-Jun 2015 only. That’s when we started collecting data.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;&lt;strong&gt;Lessons Learnt&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Developing kMITRA has taught me a great deal about the technologies behind it. I now see how exhilarating solving problems can be. It has helped me communicate better with my team and put forward my ideas and views in a coherent manner.&lt;/p&gt;
+&lt;p&gt;Additionally, I designed covers for some of the issues.&lt;/p&gt;
+&lt;p&gt;One of my most memorable assignments was creating a special &lt;a href=&quot;http://kmit.in/emagazine/oscars/&quot;&gt;page&lt;/a&gt; for kMITRA’s coverage of Oscars 2015.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/arjunnn/kmitemag/master/All%20Logos/issue4.png&quot; alt=&quot;issue-1-cover&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/arjunnn/kmitemag/master/All%20Logos/issue4new.png&quot; alt=&quot;issue-2-cover&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/arjunnn/kmitemag/master/All%20Logos/issue5.png&quot; alt=&quot;issue-3-cover&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;https://raw.githubusercontent.com/arjunnn/kmitemag/master/All%20Logos/issue6.png&quot; alt=&quot;issue-4-cover&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt; I look forward to continue contributing to the magazine during my final year at KMIT.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Technologies used&lt;/strong&gt;&lt;/h2&gt;
+&lt;h4&gt;&lt;strong&gt;Front-End&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;HTML&lt;/li&gt;
+&lt;li&gt;CSS&lt;/li&gt;
+&lt;li&gt;JavaScript&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;strong&gt;Back-End&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;PHP&lt;/li&gt;
+&lt;li&gt;Apache HTTP Server&lt;/li&gt;
+&lt;li&gt;WordPress CMS/CDN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks for reading :)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/thatsallfolks-3e51980fa514498df06cdcc64409074b.gif&quot; alt=&quot;That&amp;#x27;s All Folks!&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;until next time..&lt;/em&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
