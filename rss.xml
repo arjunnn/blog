@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Arjun's Blog]]></title><description><![CDATA[Arjun's blog]]></description><link>https://arjun.ninja/blog/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 05 Jan 2019 07:12:04 GMT</lastBuildDate><item><title><![CDATA[2018 In Review]]></title><description><![CDATA[I’ve always wanted to do an ‘year in review’ kinda post to help me reflect upon the year passed and see how it has affected me.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Arjun's Blog]]></title><description><![CDATA[Arjun's blog]]></description><link>https://arjun.ninja/blog/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 08 Jan 2019 18:49:51 GMT</lastBuildDate><item><title><![CDATA[2018 In Review]]></title><description><![CDATA[I’ve always wanted to do an ‘year in review’ kinda post to help me reflect upon the year passed and see how it has affected me.
 At least it…]]></description><link>https://arjun.ninja/blog//2018-in-review/</link><guid isPermaLink="false">https://arjun.ninja/blog//2018-in-review/</guid><pubDate>Sat, 05 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I’ve always wanted to do an ‘year in review’ kinda post to help me reflect upon the year passed and see how it has affected me.
 At least it gives me a moment to appreciate all the good that has happened in the past year, and hopefully learn from the mistakes I’ve made.&lt;/p&gt;
 &lt;hr&gt;
@@ -229,7 +229,7 @@ the &lt;a href=&quot;https://twitter.com/hashtag/pcmasterrace&quot;&gt;#PCMaster
 &lt;p&gt;Anyway, when I plugged in the pen drives from before, to my surprise, one of the drives wasn’t being recognized by Windows while the other drive showed its capacity as 2MB(!). I, being a noob at such things, thought there was nothing I could do about the drives..&lt;/p&gt;
 &lt;p&gt;..until I came across &lt;code class=&quot;language-text&quot;&gt;DISKPART&lt;/code&gt; utility after thorough googling.&lt;/p&gt;
 &lt;p&gt;Here’s what I did:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;run CMD as administrator
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# run CMD as administrator&lt;/span&gt;
 diskpart
 list disk
 &lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; disk 4 &lt;span class=&quot;token comment&quot;&gt;#mine was 4&lt;/span&gt;
