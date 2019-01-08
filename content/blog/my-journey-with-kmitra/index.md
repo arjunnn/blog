@@ -1,11 +1,9 @@
 ---
 layout: post
 title: "My Journey With kMITRA"
-tags: "kmitra"
+tags: ["kmitra"]
 date: "2015-06-23"
 summary: A behind the scenes look of kmit.in/emagazine
-categories:
-  -kmitra
 ---
 ![journey](photo-1445882679958-91991ef6832f.jpg)
 

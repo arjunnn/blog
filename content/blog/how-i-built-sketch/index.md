@@ -2,7 +2,7 @@
 layout: post
 title: "How I Built Sketch"
 date: "2017-04-16"
-tags: projects
+tags: ["projects"]
 ---
 
 Over the last week, I built a fun&trade; and cool&trade; web app to draw doodles and simple drawings.

@@ -2,7 +2,7 @@
 layout: post
 title: Jadoo
 date: "2016-12-15"
-tags: projects
+tags: ["projects"]
 ---
 
 When I saw *[Koi Mil Gaya](https://en.wikipedia.org/wiki/Koi..._Mil_Gaya)* for the first time in 2003, it quickly became one of my favourite movies.

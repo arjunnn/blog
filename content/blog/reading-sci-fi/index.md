@@ -2,7 +2,7 @@
 layout: post
 title: "Reading Sci-Fi"
 date: "2016-09-06"
-tags: miscellaneous
+tags: ["miscellaneous"]
 ---
 
 Came across this gem on twitter last week:
