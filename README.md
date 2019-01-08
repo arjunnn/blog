@@ -12,6 +12,6 @@ It is served through GitHub Pages, via the `gh-pages` branch, which contains all
 ### Contributions
 Any kind of contribution and feedback is welcome and appreciated ✨ 
 
-Please raise an [issue](https://github.com/arjunnn/blog/issues/new) if you see one ⚠
+Please raise an [issue](https://github.com/arjunnn/blog/issues/new) if you see one 📝
 
 Thank you for checking it out 😃
