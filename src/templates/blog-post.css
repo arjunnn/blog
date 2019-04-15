@@ -1,3 +1,27 @@
+:root {
+  --primary-colour: rgb(209, 60, 87);
+}
+
 li[id^='fn-'] p {
   display: inline;
+}
+
+.category {
+  font-size: 12px;
+  text-decoration: none;
+  color: var(--primary-colour);
+  padding: 3px 7px 3px 7px;
+  border: 2px solid;
+  border-radius: 20px;
+  box-shadow: none;
+  transition: all 0.15s ease-in-out;
+  margin-left: 2px;
+  margin-right: 2px;
+  text-transform: capitalize;
+}
+
+.category:hover {
+  color: white;
+  background-color: var(--primary-colour);
+  border-color: var(--primary-colour);
 }

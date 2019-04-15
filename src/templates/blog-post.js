@@ -34,6 +34,24 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
+        {post.frontmatter.tags ? (
+          <div>
+            Tagged under:{' '}
+            {post.frontmatter.tags.map(tag => (
+              <a href="#" className="category">
+                {tag}
+              </a>
+            ))}
+            <hr
+              style={{
+                marginBottom: rhythm(1),
+                marginTop: rhythm(1),
+              }}
+            />
+          </div>
+        ) : (
+          <div />
+        )}
         <Bio />
 
         <ul
@@ -82,6 +100,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        tags
       }
     }
   }
