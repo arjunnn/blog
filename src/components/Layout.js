@@ -85,7 +85,7 @@ const Layout = props => {
           role="img"
           style={{
             cursor: 'pointer',
-            MozUserSelect; 'none',
+            MozUserSelect: 'none',
             WebkitUserSelect: 'none',
             msTouchSelect: 'none',
             msUserSelect: 'none',
