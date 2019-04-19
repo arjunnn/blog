@@ -37,13 +37,13 @@ class BlogPostTemplate extends React.Component {
           <>
             Tagged under:{' '}
             {post.frontmatter.tags.map(tag => (
-              <a
-                href={`/tags/${tag.replace(/\s/g, '-')}`}
+              <Link
+                to={`/tags/${tag.replace(/\s/g, '-')}`}
                 className="category"
                 key={tag}
               >
                 {tag}
-              </a>
+              </Link>
             ))}
             <hr
               style={{
