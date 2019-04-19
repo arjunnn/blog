@@ -1,6 +1,7 @@
 ---
 title: "2018 In Review"
 date: "2019-01-05"
+tags: ["personal", "year in review"]
 ---
 
 I've always wanted to do an 'year in review' kinda post to help me reflect upon the year passed and see how it has affected me.
