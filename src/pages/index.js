@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import { rhythm } from '../utils/typography'
+import PostPreview from '../components/post-preview'
 
 class BlogIndex extends React.Component {
   render() {
@@ -22,19 +22,13 @@ class BlogIndex extends React.Component {
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-            <div key={node.fields.slug}>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: `none`, color: `#d13c57` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-            </div>
+            <PostPreview
+              slug={node.fields.slug}
+              date={node.frontmatter.date}
+              excerpt={node.excerpt}
+              title={node.frontmatter.title}
+              key={node.fields.slug}
+            />
           )
         })}
       </Layout>

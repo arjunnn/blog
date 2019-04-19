@@ -5,7 +5,6 @@ import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import { rhythm, scale } from '../utils/typography'
-
 import './blog-post.css'
 
 class BlogPostTemplate extends React.Component {
@@ -35,10 +34,14 @@ class BlogPostTemplate extends React.Component {
           }}
         />
         {post.frontmatter.tags ? (
-          <div>
+          <>
             Tagged under:{' '}
             {post.frontmatter.tags.map(tag => (
-              <a href="#" className="category">
+              <a
+                href={`/tags/${tag.replace(/\s/g, '-')}`}
+                className="category"
+                key={tag}
+              >
                 {tag}
               </a>
             ))}
@@ -48,9 +51,9 @@ class BlogPostTemplate extends React.Component {
                 marginTop: rhythm(1),
               }}
             />
-          </div>
+          </>
         ) : (
-          <div />
+          <></>
         )}
         <Bio />
 

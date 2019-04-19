@@ -1,10 +1,12 @@
 const path = require(`path`)
+const _ = require('lodash')
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
-exports.createPages = ({ graphql, actions }) => {
+exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
-  const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const blogPostTemplate = path.resolve(`./src/templates/blog-post.js`)
+  const tagTemplate = path.resolve(`./src/templates/tag.js`)
   return graphql(
     `
       {
@@ -19,7 +21,10 @@ exports.createPages = ({ graphql, actions }) => {
               }
               frontmatter {
                 title
+                tags
+                date(formatString: "MMMM DD, YYYY")
               }
+              excerpt
             }
           }
         }
@@ -39,11 +44,35 @@ exports.createPages = ({ graphql, actions }) => {
 
       createPage({
         path: post.node.fields.slug,
-        component: blogPost,
+        component: blogPostTemplate,
         context: {
           slug: post.node.fields.slug,
           previous,
           next,
+        },
+      })
+    })
+
+    let tags = {}
+    _.each(posts, post => {
+      if (_.has(post, 'node.frontmatter.tags')) {
+        let postTags = post.node.frontmatter.tags
+        postTags.forEach(tag => {
+          if (!tags.hasOwnProperty(tag)) {
+            tags[tag] = []
+          }
+          tags[tag].push(post)
+        })
+      }
+    })
+
+    Object.keys(tags).forEach(tag => {
+      createPage({
+        path: `/tags/${_.kebabCase(tag)}/`,
+        component: tagTemplate,
+        context: {
+          tag,
+          posts: tags[tag],
         },
       })
     })
