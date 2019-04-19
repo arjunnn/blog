@@ -33,7 +33,7 @@ function Bio() {
                 {author}
               </a>. <br />
               {` `}
-              I like to learn and explain things.
+              I like to learn things.
               {/* < */}
             </p>
           </div>
