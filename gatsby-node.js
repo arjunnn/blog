@@ -6,7 +6,7 @@ exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
   const blogPostTemplate = path.resolve(`./src/templates/blog-post.js`)
-  const tagTemplate = path.resolve(`./src/templates/tag.js`)
+  const tagTemplate = path.resolve(`./src/templates/TaggedWith.js`)
   return graphql(
     `
       {

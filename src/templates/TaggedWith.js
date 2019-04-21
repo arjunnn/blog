@@ -1,14 +1,17 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import { rhythm, scale } from '../utils/typography'
-import { Link } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import PostPreview from '../components/post-preview'
 
 const TaggedWith = props => {
+  console.log(props.pageContext)
   let { posts, tag } = props.pageContext
+  const siteTitle = props.data.site.siteMetadata.title
+  console.log(siteTitle)
   return (
     <>
-      <Layout location={props.location} title={"Arjun's Blog"}>
+      <Layout location={props.location} title={siteTitle}>
         <p
           style={{
             display: `block`,
@@ -40,3 +43,13 @@ const TaggedWith = props => {
 }
 
 export default TaggedWith
+
+export const pageQuery = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`
