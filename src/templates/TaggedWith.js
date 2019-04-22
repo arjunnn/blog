@@ -33,6 +33,7 @@ const TaggedWith = props => {
               excerpt={node.excerpt}
               title={node.frontmatter.title}
               key={node.fields.slug}
+              tags={node.frontmatter.tags}
             />
           )
         })}

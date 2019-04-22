@@ -28,6 +28,7 @@ class BlogIndex extends React.Component {
               excerpt={node.excerpt}
               title={node.frontmatter.title}
               key={node.fields.slug}
+              tags={node.frontmatter.tags}
             />
           )
         })}
@@ -55,6 +56,7 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
+            tags
           }
         }
       }
