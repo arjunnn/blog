@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Arjun's Blog]]></title><description><![CDATA[Arjun's blog]]></description><link>https://arjun.ninja/blog/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 22 Apr 2019 18:31:25 GMT</lastBuildDate><item><title><![CDATA[2018 In Review]]></title><description><![CDATA[I’ve always wanted to do an ‘year in review’ kinda post to help me reflect upon the year passed and see how it has affected me.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Arjun's Blog]]></title><description><![CDATA[Arjun's blog]]></description><link>https://arjun.ninja/blog/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 24 Apr 2019 18:07:55 GMT</lastBuildDate><item><title><![CDATA[Things I Want to Learn]]></title><description><![CDATA[In no particular order (maybe there should be one? 🤔), here is a list of things I want to learn: I will try and update this list as often…]]></description><link>https://arjun.ninja/blog//things-i-want-to-learn/</link><guid isPermaLink="false">https://arjun.ninja/blog//things-i-want-to-learn/</guid><pubDate>Wed, 24 Apr 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In no particular order (maybe there should be one? 🤔), here is a list of things I want to learn:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;I will try and update this list as often as I can&lt;/em&gt;&lt;/p&gt;
+&lt;h3&gt;Programming:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Go&lt;/li&gt;
+&lt;li&gt;Rust&lt;/li&gt;
+&lt;li&gt;Elixir &amp;#x26; Phoenix&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;GraphQL&lt;/li&gt;
+&lt;li&gt;Functional Programming&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Other:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;German&lt;/li&gt;
+&lt;li&gt;Building Habits&lt;sup id=&quot;fnref-2&quot;&gt;&lt;a href=&quot;#fn-2&quot; class=&quot;footnote-ref&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Learning - a meta skill &lt;sup id=&quot;fnref-3&quot;&gt;&lt;a href=&quot;#fn-3&quot; class=&quot;footnote-ref&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And when I start learning these things, I will do it publicly &lt;sup id=&quot;fnref-4&quot;&gt;&lt;a href=&quot;#fn-4&quot; class=&quot;footnote-ref&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&quot;fn-1&quot;&gt;
+&lt;p&gt; Mostly because of this excellent post: &lt;a href=&quot;https://schneider.dev/blog/elixir-phoenix-absinthe-graphql-react-apollo-absurdly-deep-dive/&quot;&gt;https://schneider.dev/blog/elixir-phoenix-absinthe-graphql-react-apollo-absurdly-deep-dive/&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;#fnref-1&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn-2&quot;&gt;
+&lt;p&gt; Been reading Atomic Habits by James Clear, such a good book on this topic. Highly recommend!&lt;/p&gt;
+&lt;a href=&quot;#fnref-2&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn-3&quot;&gt;
+&lt;p&gt; Hat tip to Naval in Tools of Titans by Tim Ferriss&lt;/p&gt;
+&lt;a href=&quot;#fnref-3&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn-4&quot;&gt;
+&lt;p&gt; Learn in Public: &lt;a href=&quot;https://gist.github.com/sw-yx/9720bd4a30606ca3ffb8d407113c0fe5&quot;&gt;https://gist.github.com/sw-yx/9720bd4a30606ca3ffb8d407113c0fe5&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;#fnref-4&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[2018 In Review]]></title><description><![CDATA[I’ve always wanted to do an ‘year in review’ kinda post to help me reflect upon the year passed and see how it has affected me.
 At least it…]]></description><link>https://arjun.ninja/blog//2018-in-review/</link><guid isPermaLink="false">https://arjun.ninja/blog//2018-in-review/</guid><pubDate>Sat, 05 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I’ve always wanted to do an ‘year in review’ kinda post to help me reflect upon the year passed and see how it has affected me.
 At least it gives me a moment to appreciate all the good that has happened in the past year, and hopefully learn from the mistakes I’ve made.&lt;/p&gt;
 &lt;hr&gt;
