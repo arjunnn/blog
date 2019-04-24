@@ -17,7 +17,7 @@ const PostPreview = props => {
       <small style={{ marginRight: rhythm(1) }}>{props.date}</small>
       <p style={{ marginBottom: rhythm(1 / 4) }}>{props.excerpt}</p>
       <div>
-        {props.tags.length > 0 ? 'Tags: ' : ''}
+        {props.tags && props.tags.length > 0 ? 'Tags: ' : ''}
         {props.tags.map(tag => (
           <Link
             to={`/tags/${tag.replace(/\s/g, '-')}`}
