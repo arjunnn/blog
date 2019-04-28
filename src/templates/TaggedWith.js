@@ -5,10 +5,8 @@ import { Link, graphql } from 'gatsby'
 import PostPreview from '../components/post-preview'
 
 const TaggedWith = props => {
-  console.log(props.pageContext)
   let { posts, tag } = props.pageContext
   const siteTitle = props.data.site.siteMetadata.title
-  console.log(siteTitle)
   return (
     <>
       <Layout location={props.location} title={siteTitle}>
