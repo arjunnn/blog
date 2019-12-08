@@ -42,7 +42,7 @@ The best cheer squad by far was a row of little schoolchildren who were singing,
 I could barely walk by the end, but all I knew is that I had to complete it, if only to prove to myself that I could. I stumbled my way into the finish line and collected my medal, feeling relieved at last. The official time was 1:21:16, which is "not great, but not terrible"[^2]. ¯\\\_(ツ)\_/¯
 
 ![arjun posing with his medal](arjun-posing-with-his-medal.jpeg)
-![route map](roupte-map.jpeg)
+![route map](route-map.jpeg)
 
 [^1]: The voice assisted run training is pretty helpful. Not sure if it's worth the ~₹620 weekly fee though.
 [^2]: Just like 3.6 Roentgen, in *[Chernobyl](https://www.youtube.com/watch?v=M6kYod3_gwk)* 
