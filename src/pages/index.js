@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import { rhythm } from '../utils/typography'
 import PostPreview from '../components/post-preview'
+import '../templates/blog-post.css'
 
 class BlogIndex extends React.Component {
   render() {
