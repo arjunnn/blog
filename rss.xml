@@ -1,8 +1,105 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Arjun's Blog]]></title><description><![CDATA[Arjun's blog]]></description><link>https://arjun.ninja/blog/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 08 Dec 2019 20:54:48 GMT</lastBuildDate><item><title><![CDATA[Running A Marathon]]></title><description><![CDATA[Well, not really a marathon, but a 10K One of my big goals for this year was to have an active lifestyle, and I decided that running a…]]></description><link>https://arjun.ninja/blog//running-a-marathon/</link><guid isPermaLink="false">https://arjun.ninja/blog//running-a-marathon/</guid><pubDate>Mon, 09 Dec 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Well, not really a marathon, but a 10K&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Arjun's Blog]]></title><description><![CDATA[Arjun's blog]]></description><link>https://arjun.ninja/blog</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 24 Apr 2020 17:17:10 GMT</lastBuildDate><item><title><![CDATA[Using a Work Journal]]></title><description><![CDATA[Since early last year, I’ve started maintaining a work journal, a simple markdown file to keep track of my work throughout the day. It helps…]]></description><link>https://arjun.ninja/blog/work-log/</link><guid isPermaLink="false">https://arjun.ninja/blog/work-log/</guid><pubDate>Fri, 24 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Since early last year, I’ve started maintaining a work journal, a simple markdown file to keep track of my work throughout the day. It helps when I write out my thoughts, to decide if they actually make sense, and flesh out ideas.&lt;/p&gt;
+&lt;p&gt;I’ve created a simple bash script to reduce the effort it takes to create a new log entry and make it as easy as entering a word.&lt;/p&gt;
+&lt;p&gt;It automatically creates a file for that day, if it is not yet created, or gets that day’s file if it exists, and then opens up Vim editor with the current timestamp and in insert mode!&lt;/p&gt;
+&lt;p&gt;If you think it might he helpful to you, check it out:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token assign-left variable&quot;&gt;homedir&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/home/arjun/worklog/&quot;&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;date&lt;/span&gt; +%Y-%m-%d&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;.md&quot;&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;date&lt;/span&gt; +%A,&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; %b&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; %d&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt; %Y&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;
+ 
+&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$homedir&lt;/span&gt;
+ 
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; -e &lt;span class=&quot;token variable&quot;&gt;$filename&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+  &lt;span class=&quot;token assign-left variable&quot;&gt;file_exists&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;true
+&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;
+  &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;# &quot;&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$title&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$filename&lt;/span&gt;
+  &lt;span class=&quot;token assign-left variable&quot;&gt;file_exists&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;false
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+ 
+&lt;span class=&quot;token assign-left variable&quot;&gt;newline_gap&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$file_exists&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+  &lt;span class=&quot;token assign-left variable&quot;&gt;newline_gap&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token entity&quot; title=&quot;\n&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;token entity&quot; title=&quot;\n&quot;&gt;\n&lt;/span&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$newline_gap&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;## &quot;&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;date&lt;/span&gt; +%r&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token entity&quot; title=&quot;\n&quot;&gt;\n&lt;/span&gt;- &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$filename&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;vim&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;+ normal GA&apos;&lt;/span&gt; -c &lt;span class=&quot;token string&quot;&gt;&apos;startinsert&apos;&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$filename&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;printf&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token entity&quot; title=&quot;\033&quot;&gt;\033&lt;/span&gt;c&quot;&lt;/span&gt;
+fortune &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; pokemonsay&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Don’t forget to add an alias:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ worklog=&amp;#39;sh ~/worklog/create-log.sh&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;It is then as simple as typing &lt;code class=&quot;language-text&quot;&gt;worklog&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ worklog&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You will then see Vim editor opened up, nicely formatted, and in insert mode:
+&lt;img src=&quot;https://user-images.githubusercontent.com/6116387/80232950-58f47c00-8673-11ea-8a63-d574d236d522.png&quot; alt=&quot;screenshot&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[2019 In Review]]></title><description><![CDATA[Continuing my tradition of yearly reviews of well, years, here’s a reflection my life in 2019. Let us please pretend that this post is not…]]></description><link>https://arjun.ninja/blog/2019-in-review/</link><guid isPermaLink="false">https://arjun.ninja/blog/2019-in-review/</guid><pubDate>Fri, 24 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Continuing my tradition of yearly reviews of well, years, here’s a reflection my life in 2019.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Let us please pretend that this post is not late by almost half a year, okay? Clearly, I was so busy that a lock-down caused by a global pandemic was the only thing that could free me enough to publish this.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;😉&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;p&gt;I continued to grow as a developer and learned where my interests lie in the vast world of software engineering.&lt;/p&gt;
+&lt;p&gt;Around the middle of the year though, I grew frustrated with my employer, as did my teammates, for a myriad of reasons. Before I knew it, I &lt;a href=&quot;https://en.wikipedia.org/wiki/Occupational_burnout&quot;&gt;burned out&lt;/a&gt;. And so, I quit my job. &lt;/p&gt;
+&lt;p&gt;A couple of days later, I accepted an offer from Melvault, where I currently work at. It’s been 7 months to this date and it’s been amazing! Some things I learned so far:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Navigating through a large, mature codebase for an enterprise product.&lt;/li&gt;
+&lt;li&gt;My debugging skills have vastly improved. By improved I mean I’ve gone from littering my code with &lt;code class=&quot;language-text&quot;&gt;print(&amp;#39;here&amp;#39;)&lt;/code&gt;s to actually using all the amazing debugging tools available in modern IDEs.&lt;/li&gt;
+&lt;li&gt;Asking for help. It might seem strange but I’ve only now learned to ask for help after exhausting all other options to solve a problem.&lt;/li&gt;
+&lt;li&gt;How much you can enjoy your work when you have a supportive manager.&lt;/li&gt;
+&lt;li&gt;I’ve realized that working from home, with dedicated focus blocks, is the best way for me to be productive. I’m now much better at finishing tasks within deadlines and due dates.&lt;/li&gt;
+&lt;li&gt;I’ve given up on my fight against &lt;a href=&quot;https://en.wikipedia.org/wiki/Jira_(software)&quot;&gt;JIRA&lt;/a&gt; and I now realise that it is a necessary evil to get the job done.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Personal&lt;/h2&gt;
+&lt;h3&gt;Some things were good this year:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;🛹 I bought a skateboard on a whim and learned to ride it in a couple of days!&lt;/li&gt;
+&lt;li&gt;🏃‍♂️ &lt;a href=&quot;&quot;&gt;I took part in a marathon,&lt;/a&gt; something I’ve wanted to do since school.&lt;/li&gt;
+&lt;li&gt;⌨ After learning to type last year, I got into the &lt;a href=&quot;https://www.reddit.com/r/MechanicalKeyboards/&quot;&gt;wonderful mechanical keyboard community&lt;/a&gt; and bought my first “clicky keeb” and I love it!&lt;/li&gt;
+&lt;li&gt;🥰 My personal life and relationships have never been better, the pieces are falling in place for a future I’ve only dreamt of.&lt;/li&gt;
+&lt;li&gt;💸 I’ve gotten serious about long-term investing and the magical power of &lt;a href=&quot;https://www.investopedia.com/terms/c/compounding.asp&quot;&gt;compounding&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;😴 On average, I’m sleeping better and more consistently and its effects are quite evident on my physical and mental health.&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;🚶‍♂️ Walked more this year than I ever did before, for an average of ~7000 steps a day.&lt;/li&gt;
+&lt;li&gt;👯‍♀️ Spent more time with friends.&lt;/li&gt;
+&lt;li&gt;💗 Started tracking my heart rate and sleep quality 24/7. It’s insightful to see trends over a period of time to reflect on a specific situations etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Some were not so good:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;🚫✈ Did not travel &lt;strong&gt;at all&lt;/strong&gt; this year.&lt;/li&gt;
+&lt;li&gt;🚫📚 Read fewer books this year.&lt;/li&gt;
+&lt;li&gt;🚫⚛ Wrote less javascript that I would’ve liked to.&lt;/li&gt;
+&lt;li&gt;🚫🚀 Did not ship a single project. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Things I hope to do in 2020:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;💪 Exercise regularly to build core strength and stamina.&lt;/li&gt;
+&lt;li&gt;🚀 Ship something, anything!&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;🌱 Be mindful about what I eat. After all:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;there is no such thing as a ‘bad’ or ‘unhealthy’ food, just an unhealthy diet. &lt;sup id=&quot;fnref-2&quot;&gt;&lt;a href=&quot;#fn-2&quot; class=&quot;footnote-ref&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;🦉 Get serious about learning at least one new language.&lt;/li&gt;
+&lt;li&gt;📚 Read more books.&lt;/li&gt;
+&lt;li&gt;🎮 Play more games. I’ve been missing out on the fun and thrill of video games.&lt;/li&gt;
+&lt;li&gt;✈ Travel, for my own sanity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&quot;fn-1&quot;&gt;
+&lt;p&gt; All thanks to this book, Why We Sleep: &lt;a href=&quot;https://www.goodreads.com/book/show/34466963&quot;&gt;https://www.goodreads.com/book/show/34466963&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;#fnref-1&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn-2&quot;&gt;
+&lt;p&gt; &lt;a href=&quot;https://twitter.com/Botanygeek/status/1029653068638572544&quot;&gt;https://twitter.com/Botanygeek/status/1029653068638572544&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;#fnref-2&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Running A Marathon]]></title><description><![CDATA[Well, not really a marathon, but a 10K One of my big goals for this year was to have an active lifestyle, and I decided that running a…]]></description><link>https://arjun.ninja/blog/running-a-marathon/</link><guid isPermaLink="false">https://arjun.ninja/blog/running-a-marathon/</guid><pubDate>Mon, 09 Dec 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Well, not really a marathon, but a 10K&lt;/p&gt;
 &lt;p&gt;One of my big goals for this year was to have an active lifestyle, and I decided that running a marathon would be a good step (pun intended) in that direction. And so, on a wet Sunday in August, I participated in &lt;strong&gt;Airtel Hyderabad Marathon&lt;/strong&gt; — the biggest annual running event in the city — in the 10K category.&lt;/p&gt;
 &lt;h2&gt;False Starts&lt;/h2&gt;
-&lt;p&gt;I had originally planned on running a Half marathon. As soon as the dates were announced, I made an overly optimistic (given my sedentary lifestyle) workout plan that included a week of warm-up runs, 10 weeks of training, and new shoes for the big day.&lt;/p&gt;
-&lt;p&gt;I used Runkeeper&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; to track my runs and form the very first run, I struggled to get a good pace. As we often do, I dismissed it as teething problems, and kept pushing though the pain for a week. By the end of the week, I had severe pain in my shinbones — even simply stomping my feet hurt!&lt;/p&gt;
+&lt;p&gt;I had originally planned on running a Half marathon. As soon as the dates were announced, I made an overly optimistic (given my sedentary lifestyle) workout plan that included a week of warm-up runs, 10 weeks of training, and new shoes for the big day.
+c
+I used Runkeeper&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; to track my runs and form the very first run, I struggled to get a good pace. As we often do, I dismissed it as teething problems, and kept pushing though the pain for a week. By the end of the week, I had severe pain in my shinbones — even simply stomping my feet hurt!&lt;/p&gt;
 &lt;p&gt;And so I decided to take some time off to heal my legs, thinking that perhaps I’d exerted myself too much too soon. A week into my 10 week training, I was forced to take a month’s break.&lt;/p&gt;
 &lt;p&gt;Then one day, I fell down the stairs. Yup. Slipped on soap water and crashed hard on my back. Got bruises all along my back, thigh and butt. Thankfully, nothing happened to my neck or head. &lt;/p&gt;
 &lt;p&gt;Naturally, I headed to a doctor and was told that it wasn’t serious and everything would heal in good time. It was there that I found out that I had Vitamin D3 deficiency and my joints were to some degree &lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Hypermobility_(joints)&quot;&gt;hypermobile&lt;/a&gt;&lt;/em&gt;. This meant that I had to be careful when I exercise my joints, especially my knees.&lt;/p&gt;
@@ -17,7 +114,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/c78227a248ebcd0091a1736bd00d1707/e5220/arjun-posing-with-his-medal.jpeg&quot;
+    href=&quot;/blog/static/c78227a248ebcd0091a1736bd00d1707/cdbd8/arjun-posing-with-his-medal.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -36,11 +133,11 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;arjun posing with his medal&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/c78227a248ebcd0091a1736bd00d1707/f8fb9/arjun-posing-with-his-medal.jpeg&quot;
-        srcset=&quot;/blog/static/c78227a248ebcd0091a1736bd00d1707/e8976/arjun-posing-with-his-medal.jpeg 148w,
-/blog/static/c78227a248ebcd0091a1736bd00d1707/63df2/arjun-posing-with-his-medal.jpeg 295w,
-/blog/static/c78227a248ebcd0091a1736bd00d1707/f8fb9/arjun-posing-with-his-medal.jpeg 590w,
-/blog/static/c78227a248ebcd0091a1736bd00d1707/e5220/arjun-posing-with-his-medal.jpeg 768w&quot;
+        src=&quot;/blog/static/c78227a248ebcd0091a1736bd00d1707/88218/arjun-posing-with-his-medal.jpg&quot;
+        srcset=&quot;/blog/static/c78227a248ebcd0091a1736bd00d1707/7237a/arjun-posing-with-his-medal.jpg 148w,
+/blog/static/c78227a248ebcd0091a1736bd00d1707/0cfdf/arjun-posing-with-his-medal.jpg 295w,
+/blog/static/c78227a248ebcd0091a1736bd00d1707/88218/arjun-posing-with-his-medal.jpg 590w,
+/blog/static/c78227a248ebcd0091a1736bd00d1707/cdbd8/arjun-posing-with-his-medal.jpg 768w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -51,7 +148,7 @@
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/aa1afb5fd5c20d8fc8dac68bb0c38564/eaf64/route-map.jpeg&quot;
+    href=&quot;/blog/static/aa1afb5fd5c20d8fc8dac68bb0c38564/6be92/route-map.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -70,11 +167,11 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;route map&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/aa1afb5fd5c20d8fc8dac68bb0c38564/f8fb9/route-map.jpeg&quot;
-        srcset=&quot;/blog/static/aa1afb5fd5c20d8fc8dac68bb0c38564/e8976/route-map.jpeg 148w,
-/blog/static/aa1afb5fd5c20d8fc8dac68bb0c38564/63df2/route-map.jpeg 295w,
-/blog/static/aa1afb5fd5c20d8fc8dac68bb0c38564/f8fb9/route-map.jpeg 590w,
-/blog/static/aa1afb5fd5c20d8fc8dac68bb0c38564/eaf64/route-map.jpeg 792w&quot;
+        src=&quot;/blog/static/aa1afb5fd5c20d8fc8dac68bb0c38564/88218/route-map.jpg&quot;
+        srcset=&quot;/blog/static/aa1afb5fd5c20d8fc8dac68bb0c38564/7237a/route-map.jpg 148w,
+/blog/static/aa1afb5fd5c20d8fc8dac68bb0c38564/0cfdf/route-map.jpg 295w,
+/blog/static/aa1afb5fd5c20d8fc8dac68bb0c38564/88218/route-map.jpg 590w,
+/blog/static/aa1afb5fd5c20d8fc8dac68bb0c38564/6be92/route-map.jpg 792w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -94,7 +191,7 @@
 &lt;a href=&quot;#fnref-2&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Things I Want to Learn]]></title><description><![CDATA[In no particular order (maybe there should be one? 🤔), here is a list of things I want to learn: I will try and update this list as often…]]></description><link>https://arjun.ninja/blog//things-i-want-to-learn/</link><guid isPermaLink="false">https://arjun.ninja/blog//things-i-want-to-learn/</guid><pubDate>Wed, 24 Apr 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In no particular order (maybe there should be one? 🤔), here is a list of things I want to learn:&lt;/p&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Things I Want to Learn]]></title><description><![CDATA[In no particular order (maybe there should be one? 🤔), here is a list of things I want to learn: I will try and update this list as often…]]></description><link>https://arjun.ninja/blog/things-i-want-to-learn/</link><guid isPermaLink="false">https://arjun.ninja/blog/things-i-want-to-learn/</guid><pubDate>Wed, 24 Apr 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In no particular order (maybe there should be one? 🤔), here is a list of things I want to learn:&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;I will try and update this list as often as I can&lt;/em&gt;&lt;/p&gt;
 &lt;h3&gt;Programming:&lt;/h3&gt;
 &lt;ul&gt;
@@ -132,7 +229,7 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</content:encoded></item><item><title><![CDATA[2018 In Review]]></title><description><![CDATA[I’ve always wanted to do an ‘year in review’ kinda post to help me reflect upon the year passed and see how it has affected me.
-At least it…]]></description><link>https://arjun.ninja/blog//2018-in-review/</link><guid isPermaLink="false">https://arjun.ninja/blog//2018-in-review/</guid><pubDate>Sat, 05 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I’ve always wanted to do an ‘year in review’ kinda post to help me reflect upon the year passed and see how it has affected me.
+At least it…]]></description><link>https://arjun.ninja/blog/2018-in-review/</link><guid isPermaLink="false">https://arjun.ninja/blog/2018-in-review/</guid><pubDate>Sat, 05 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I’ve always wanted to do an ‘year in review’ kinda post to help me reflect upon the year passed and see how it has affected me.
 At least it gives me a moment to appreciate all the good that has happened in the past year, and hopefully learn from the mistakes I’ve made.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Work&lt;/h2&gt;
@@ -155,30 +252,14 @@ Also, in October last year, I started learning touch typing on a whim. In about 
 &lt;hr&gt;
 &lt;h3&gt;Other Stuff to look forward to in 2019&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;In the last week of December I finally got around to finishing the React Course I purchased in 2017 (😲, yes I know) and I think it &lt;strong&gt;finally&lt;/strong&gt; clicked for me. Just three years later, no biggie 😅. I’ve since been obsessively learing everything I can about React. In fact, I brought this blog back to life just so I could learn Gatsby and remake my blog. So I’m seriously going to use React at work and elsewhere because it is &lt;strong&gt;so&lt;/strong&gt; good!&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;More books! I can’t read enough books.&lt;sup id=&quot;fnref-5&quot;&gt;&lt;a href=&quot;#fn-5&quot; class=&quot;footnote-ref&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Deliberate choices about time spent in activites, in terms of risk, reward and strength&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Audit relationships regularly, discuss long-term priorities, issues etc.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Ship more stuff, even if it is just MVPs. “Better done than perfect”.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Understand how the world works&lt;sup id=&quot;fnref-6&quot;&gt;&lt;a href=&quot;#fn-6&quot; class=&quot;footnote-ref&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Making lots of lists &lt;sup id=&quot;fnref-7&quot;&gt;&lt;a href=&quot;#fn-7&quot; class=&quot;footnote-ref&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Unlearn and Relearn Math (A man can dream…)&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;In the last week of December I finally got around to finishing the React Course I purchased in 2017 (😲, yes I know) and I think it &lt;strong&gt;finally&lt;/strong&gt; clicked for me. Just three years later, no biggie 😅. I’ve since been obsessively learning everything I can about React. In fact, I brought this blog back to life just so I could learn Gatsby and remake my blog. So I’m seriously going to use React at work and elsewhere because it is &lt;strong&gt;so&lt;/strong&gt; good!&lt;/li&gt;
+&lt;li&gt;More books! I can’t read enough books.&lt;sup id=&quot;fnref-5&quot;&gt;&lt;a href=&quot;#fn-5&quot; class=&quot;footnote-ref&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Deliberate choices about time spent in activities, in terms of risk, reward and strength&lt;/li&gt;
+&lt;li&gt;Audit relationships regularly, discuss long-term priorities, issues etc.&lt;/li&gt;
+&lt;li&gt;Ship more stuff, even if it is just MVPs. “Better done than perfect”.&lt;/li&gt;
+&lt;li&gt;Understand how the world works&lt;sup id=&quot;fnref-6&quot;&gt;&lt;a href=&quot;#fn-6&quot; class=&quot;footnote-ref&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Making lots of lists &lt;sup id=&quot;fnref-7&quot;&gt;&lt;a href=&quot;#fn-7&quot; class=&quot;footnote-ref&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Unlearn and Relearn Math (A man can dream…)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;footnotes&quot;&gt;
 &lt;hr&gt;
@@ -212,8 +293,8 @@ Also, in October last year, I started learning touch typing on a whim. In about 
 &lt;a href=&quot;#fnref-7&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[How I Built Sketch]]></title><description><![CDATA[Over the last week, I built a fun ™  and cool ™  web app to draw doodles and simple drawings.
-I appropriately named it  Sketch . You can…]]></description><link>https://arjun.ninja/blog//how-i-built-sketch/</link><guid isPermaLink="false">https://arjun.ninja/blog//how-i-built-sketch/</guid><pubDate>Sun, 16 Apr 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Over the last week, I built a fun™ and cool™ web app to draw doodles and simple drawings.
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[How I Built Sketch]]></title><description><![CDATA[Over the last week, I built a fun™ and cool™ web app to draw doodles and simple drawings.
+I appropriately named it Sketch. You can check it…]]></description><link>https://arjun.ninja/blog/how-i-built-sketch/</link><guid isPermaLink="false">https://arjun.ninja/blog/how-i-built-sketch/</guid><pubDate>Sun, 16 Apr 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Over the last week, I built a fun™ and cool™ web app to draw doodles and simple drawings.
 I appropriately named it &lt;strong&gt;Sketch&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;You can check it out here: &lt;a href=&quot;https://sketch.arjun.ninja&quot;&gt;https://sketch.arjun.ninja&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Why&lt;/h2&gt;
@@ -226,7 +307,7 @@ So to dig deeper, I scoured the internet for resources and found myself on MDN.&
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/ef41a98dbfa08c0f24572f18f4113d44/2d7b7/user-stories.jpg&quot;
+    href=&quot;/blog/static/ef41a98dbfa08c0f24572f18f4113d44/f586a/user-stories.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -245,12 +326,12 @@ So to dig deeper, I scoured the internet for resources and found myself on MDN.&
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;User Stories&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/ef41a98dbfa08c0f24572f18f4113d44/f8fb9/user-stories.jpg&quot;
-        srcset=&quot;/blog/static/ef41a98dbfa08c0f24572f18f4113d44/e8976/user-stories.jpg 148w,
-/blog/static/ef41a98dbfa08c0f24572f18f4113d44/63df2/user-stories.jpg 295w,
-/blog/static/ef41a98dbfa08c0f24572f18f4113d44/f8fb9/user-stories.jpg 590w,
-/blog/static/ef41a98dbfa08c0f24572f18f4113d44/85e3d/user-stories.jpg 885w,
-/blog/static/ef41a98dbfa08c0f24572f18f4113d44/2d7b7/user-stories.jpg 942w&quot;
+        src=&quot;/blog/static/ef41a98dbfa08c0f24572f18f4113d44/88218/user-stories.jpg&quot;
+        srcset=&quot;/blog/static/ef41a98dbfa08c0f24572f18f4113d44/7237a/user-stories.jpg 148w,
+/blog/static/ef41a98dbfa08c0f24572f18f4113d44/0cfdf/user-stories.jpg 295w,
+/blog/static/ef41a98dbfa08c0f24572f18f4113d44/88218/user-stories.jpg 590w,
+/blog/static/ef41a98dbfa08c0f24572f18f4113d44/77d57/user-stories.jpg 885w,
+/blog/static/ef41a98dbfa08c0f24572f18f4113d44/f586a/user-stories.jpg 942w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -264,7 +345,7 @@ With little effort, I had a canvas to draw on and a function to listen to mouse 
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/d3bd2d010987f2d771130d04277de44a/8257f/ui-mockup.jpg&quot;
+    href=&quot;/blog/static/d3bd2d010987f2d771130d04277de44a/9080a/ui-mockup.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -283,11 +364,11 @@ With little effort, I had a canvas to draw on and a function to listen to mouse 
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;UI Mockup&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/d3bd2d010987f2d771130d04277de44a/f8fb9/ui-mockup.jpg&quot;
-        srcset=&quot;/blog/static/d3bd2d010987f2d771130d04277de44a/e8976/ui-mockup.jpg 148w,
-/blog/static/d3bd2d010987f2d771130d04277de44a/63df2/ui-mockup.jpg 295w,
-/blog/static/d3bd2d010987f2d771130d04277de44a/f8fb9/ui-mockup.jpg 590w,
-/blog/static/d3bd2d010987f2d771130d04277de44a/8257f/ui-mockup.jpg 781w&quot;
+        src=&quot;/blog/static/d3bd2d010987f2d771130d04277de44a/88218/ui-mockup.jpg&quot;
+        srcset=&quot;/blog/static/d3bd2d010987f2d771130d04277de44a/7237a/ui-mockup.jpg 148w,
+/blog/static/d3bd2d010987f2d771130d04277de44a/0cfdf/ui-mockup.jpg 295w,
+/blog/static/d3bd2d010987f2d771130d04277de44a/88218/ui-mockup.jpg 590w,
+/blog/static/d3bd2d010987f2d771130d04277de44a/9080a/ui-mockup.jpg 781w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -296,7 +377,7 @@ With little effort, I had a canvas to draw on and a function to listen to mouse 
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;p&gt;I then added a colour palette, a brush width selector, and a multi-colour brush. The multi-colour brush is my favorite.&lt;/p&gt;
-&lt;p&gt;&lt;video autoplay loop muted width=&quot;100%&quot; preload=&quot;auto&quot; playsinline src=&quot;/blog/sketch-color-selection-ff0503bc8bbee531ed7580a31950f1c7.mp4&quot;&gt; &lt;/video&gt;&lt;/p&gt;
+&lt;p&gt;&lt;video autoplay loop muted width=&quot;100%&quot; preload=&quot;auto&quot; playsinline src=&quot;/blog/ff0503bc8bbee531ed7580a31950f1c7/sketch-color-selection.mp4&quot;&gt; &lt;/video&gt;&lt;/p&gt;
 &lt;p&gt;I then added touch and multi-touch, with the help of MDN’s excellent &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Touch_events&quot;&gt;guide&lt;/a&gt; to adding touch input to canvases. There was only one feature remaining in my list: Saving sketches as images.&lt;/p&gt;
 &lt;p&gt;For this, I used the canvas API’s &lt;code class=&quot;language-text&quot;&gt;toDataURL()&lt;/code&gt; method to convert the canvas to a base64 encoded string of &lt;code class=&quot;language-text&quot;&gt;image/png&lt;/code&gt; type, which I then set as the &lt;code class=&quot;language-text&quot;&gt;href&lt;/code&gt; in my download link element.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;#&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;download&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;drawing.png&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;onclick&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;saveImage()&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;action&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
@@ -307,15 +388,15 @@ Unfortunately, this hack was of no use in mobile browsers because apparently mob
 &lt;p&gt;I said screw it, ship it. And that’s how I got to my MVP, two days after I started from scratch.
 I launched the website on GitHub Pages and got good reviews from my cool friends.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;This is v1:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;video autoplay loop muted width=&quot;100%&quot; preload=&quot;auto&quot; playsinline src=&quot;/blog/sketch-v1-1053b590eeb152b52601221ecfe648e9.mp4&quot;&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;p&gt;&lt;video autoplay loop muted width=&quot;100%&quot; preload=&quot;auto&quot; playsinline src=&quot;/blog/1053b590eeb152b52601221ecfe648e9/sketch-v1.mp4&quot;&gt;&lt;/video&gt;&lt;/p&gt;
 &lt;!-- But the lack of mobile save option still bugged me.
 Meanwhile, I thought of another feature:
 **A unique share URL for every sketch**.
 
 ## Sketch v2
 
-*To be continued...* --&gt;</content:encoded></item><item><title><![CDATA[Jadoo]]></title><description><![CDATA[When I saw  Koi Mil Gaya  for the first time in 2003, it quickly became one of my favourite movies.
-It had elements such as an underdog to…]]></description><link>https://arjun.ninja/blog//jadoo/</link><guid isPermaLink="false">https://arjun.ninja/blog//jadoo/</guid><pubDate>Thu, 15 Dec 2016 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;When I saw &lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Koi..._Mil_Gaya&quot;&gt;Koi Mil Gaya&lt;/a&gt;&lt;/em&gt; for the first time in 2003, it quickly became one of my favourite movies.
+*To be continued...* --&gt;</content:encoded></item><item><title><![CDATA[Jadoo]]></title><description><![CDATA[When I saw Koi Mil Gaya for the first time in 2003, it quickly became one of my favourite movies.
+It had elements such as an underdog to…]]></description><link>https://arjun.ninja/blog/jadoo/</link><guid isPermaLink="false">https://arjun.ninja/blog/jadoo/</guid><pubDate>Thu, 15 Dec 2016 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;When I saw &lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Koi..._Mil_Gaya&quot;&gt;Koi Mil Gaya&lt;/a&gt;&lt;/em&gt; for the first time in 2003, it quickly became one of my favourite movies.
 It had elements such as an underdog to achiever storyline, aliens, friendship, and comedy.
 The combination of all these, along with Hrithik Roshan’s brilliant performance won me over.
 I hadn’t yet seen &lt;em&gt;E.T.&lt;/em&gt; then and this movie was the closest my 8 year old self had come to alien sci-fi adventure.&lt;/p&gt;
@@ -336,24 +417,24 @@ I hadn’t yet seen &lt;em&gt;E.T.&lt;/em&gt; then and this movie was the closes
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;jadoo screenshot&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/25b7318b24363fd87fc274d41788698a/fb8a0/jadoo.png&quot;
-        srcset=&quot;/blog/static/25b7318b24363fd87fc274d41788698a/1a291/jadoo.png 148w,
-/blog/static/25b7318b24363fd87fc274d41788698a/2bc4a/jadoo.png 295w,
-/blog/static/25b7318b24363fd87fc274d41788698a/fb8a0/jadoo.png 590w,
-/blog/static/25b7318b24363fd87fc274d41788698a/526de/jadoo.png 885w,
-/blog/static/25b7318b24363fd87fc274d41788698a/fa2eb/jadoo.png 1180w,
-/blog/static/25b7318b24363fd87fc274d41788698a/f64ac/jadoo.png 1366w&quot;
+        src=&quot;/blog/static/25b7318b24363fd87fc274d41788698a/799d3/jadoo.png&quot;
+        srcset=&quot;/blog/static/25b7318b24363fd87fc274d41788698a/00d96/jadoo.png 148w,
+/blog/static/25b7318b24363fd87fc274d41788698a/0b23c/jadoo.png 295w,
+/blog/static/25b7318b24363fd87fc274d41788698a/799d3/jadoo.png 590w,
+/blog/static/25b7318b24363fd87fc274d41788698a/2a3d6/jadoo.png 885w,
+/blog/static/25b7318b24363fd87fc274d41788698a/ae92f/jadoo.png 1180w,
+/blog/static/25b7318b24363fd87fc274d41788698a/2977b/jadoo.png 1366w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Reading Sci-Fi]]></title><description><![CDATA[Came across this gem on twitter last week: I just finished reading  Ready Player One  and this is similar to how I felt in some parts of the…]]></description><link>https://arjun.ninja/blog//reading-sci-fi/</link><guid isPermaLink="false">https://arjun.ninja/blog//reading-sci-fi/</guid><pubDate>Tue, 06 Sep 2016 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Came across this gem on twitter last week:&lt;/p&gt;
+  &lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Reading Sci-Fi]]></title><description><![CDATA[Came across this gem on twitter last week: I just finished reading Ready Player One and this is similar to how I felt in some parts of the…]]></description><link>https://arjun.ninja/blog/reading-sci-fi/</link><guid isPermaLink="false">https://arjun.ninja/blog/reading-sci-fi/</guid><pubDate>Tue, 06 Sep 2016 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Came across this gem on twitter last week:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Raymond Chandler owning all science fiction writers and casually inventing Google in a letter from 1953 &lt;a href=&quot;https://t.co/NHk5Oxy8nd&quot;&gt;pic.twitter.com/NHk5Oxy8nd&lt;/a&gt;&lt;/p&gt;&amp;mdash; Andy Cush (@cushac) &lt;a href=&quot;https://twitter.com/cushac/status/771390995825123328&quot;&gt;September 1, 2016&lt;/a&gt;&lt;/blockquote&gt;
 &lt;/blockquote&gt;
 &lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 &lt;p&gt;I just finished reading &lt;a href=&quot;http://www.amazon.in/Ready-Player-One-Ernest-Cline/dp/0099560437/ref=sr_1_1?ie=UTF8&amp;#x26;qid=1473148370&amp;#x26;sr=8-1&amp;#x26;keywords=ready+player+one&quot;&gt;Ready Player One&lt;/a&gt; and this is similar to how I felt in some parts of the book. The book is laden with 80s pop culture references; most of which I’ve never heard of before. Not that I didn’t like the book as a whole, but y’know.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[DISKPART saves the day]]></title><description><![CDATA[Last month, when my laptop’s hard disk failed hard, all my work came to a grinding halt. In a desperate
-attempt to restore order to the…]]></description><link>https://arjun.ninja/blog//diskpart-saves-the-day/</link><guid isPermaLink="false">https://arjun.ninja/blog//diskpart-saves-the-day/</guid><pubDate>Fri, 06 Nov 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Last month, when my laptop’s hard disk failed hard, all my work came to a grinding halt. In a desperate
+attempt to restore order to the…]]></description><link>https://arjun.ninja/blog/diskpart-saves-the-day/</link><guid isPermaLink="false">https://arjun.ninja/blog/diskpart-saves-the-day/</guid><pubDate>Fri, 06 Nov 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Last month, when my laptop’s hard disk failed hard, all my work came to a grinding halt. In a desperate
 attempt to restore order to the universe, I installed Ubuntu on it. I used two pen drives; one as a bootable drive and the other to actually store the OS and data.&lt;/p&gt;
 &lt;p&gt;Now this make-shift setup worked for a week or so before the performance degradation due to
 running an OS out of a pen drive became too much to handle. I ended up assembling a custom PC and joining
@@ -365,16 +446,16 @@ the &lt;a href=&quot;https://twitter.com/hashtag/pcmasterrace&quot;&gt;#PCMaster
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# run CMD as administrator&lt;/span&gt;
 diskpart
 list disk
-&lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; disk 4 &lt;span class=&quot;token comment&quot;&gt;#mine was 4&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;select&lt;/span&gt; disk &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#mine was 4&lt;/span&gt;
 clean
 create partition primary
 active
-&lt;span class=&quot;token function&quot;&gt;format&lt;/span&gt; fs&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;ntfs quick
+&lt;span class=&quot;token function&quot;&gt;format&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;fs&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;ntfs quick
 assign
-&lt;span class=&quot;token keyword&quot;&gt;exit&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[My Journey With kMITRA]]></title><description><![CDATA[Introduction kMITRA is a student-run monthly magazine by the students of  KMIT . The magazine aspires to cover and inform readers about…]]></description><link>https://arjun.ninja/blog//my-journey-with-kmitra/</link><guid isPermaLink="false">https://arjun.ninja/blog//my-journey-with-kmitra/</guid><pubDate>Tue, 23 Jun 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;exit&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[My Journey With kMITRA]]></title><description><![CDATA[Introduction kMITRA is a student-run monthly magazine by the students of KMIT. The magazine aspires to cover and inform readers about…]]></description><link>https://arjun.ninja/blog/my-journey-with-kmitra/</link><guid isPermaLink="false">https://arjun.ninja/blog/my-journey-with-kmitra/</guid><pubDate>Tue, 23 Jun 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/af610840426bb6340594a668a8cc5cb0/a402e/photo-1445882679958-91991ef6832f.jpg&quot;
+    href=&quot;/blog/static/af610840426bb6340594a668a8cc5cb0/7e3f6/photo-1445882679958-91991ef6832f.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -393,12 +474,12 @@ assign
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;journey&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/af610840426bb6340594a668a8cc5cb0/f8fb9/photo-1445882679958-91991ef6832f.jpg&quot;
-        srcset=&quot;/blog/static/af610840426bb6340594a668a8cc5cb0/e8976/photo-1445882679958-91991ef6832f.jpg 148w,
-/blog/static/af610840426bb6340594a668a8cc5cb0/63df2/photo-1445882679958-91991ef6832f.jpg 295w,
-/blog/static/af610840426bb6340594a668a8cc5cb0/f8fb9/photo-1445882679958-91991ef6832f.jpg 590w,
-/blog/static/af610840426bb6340594a668a8cc5cb0/85e3d/photo-1445882679958-91991ef6832f.jpg 885w,
-/blog/static/af610840426bb6340594a668a8cc5cb0/a402e/photo-1445882679958-91991ef6832f.jpg 1000w&quot;
+        src=&quot;/blog/static/af610840426bb6340594a668a8cc5cb0/88218/photo-1445882679958-91991ef6832f.jpg&quot;
+        srcset=&quot;/blog/static/af610840426bb6340594a668a8cc5cb0/7237a/photo-1445882679958-91991ef6832f.jpg 148w,
+/blog/static/af610840426bb6340594a668a8cc5cb0/0cfdf/photo-1445882679958-91991ef6832f.jpg 295w,
+/blog/static/af610840426bb6340594a668a8cc5cb0/88218/photo-1445882679958-91991ef6832f.jpg 590w,
+/blog/static/af610840426bb6340594a668a8cc5cb0/77d57/photo-1445882679958-91991ef6832f.jpg 885w,
+/blog/static/af610840426bb6340594a668a8cc5cb0/7e3f6/photo-1445882679958-91991ef6832f.jpg 1000w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -414,7 +495,7 @@ assign
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/95875c98caafd0ce9fed82312d36650e/17f42/kmitra-logo.png&quot;
+    href=&quot;/blog/static/95875c98caafd0ce9fed82312d36650e/4c1ab/kmitra-logo.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -433,10 +514,10 @@ assign
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;kmitra logo&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/95875c98caafd0ce9fed82312d36650e/17f42/kmitra-logo.png&quot;
-        srcset=&quot;/blog/static/95875c98caafd0ce9fed82312d36650e/2a66c/kmitra-logo.png 148w,
-/blog/static/95875c98caafd0ce9fed82312d36650e/b31da/kmitra-logo.png 295w,
-/blog/static/95875c98caafd0ce9fed82312d36650e/17f42/kmitra-logo.png 585w&quot;
+        src=&quot;/blog/static/95875c98caafd0ce9fed82312d36650e/4c1ab/kmitra-logo.png&quot;
+        srcset=&quot;/blog/static/95875c98caafd0ce9fed82312d36650e/00d96/kmitra-logo.png 148w,
+/blog/static/95875c98caafd0ce9fed82312d36650e/0b23c/kmitra-logo.png 295w,
+/blog/static/95875c98caafd0ce9fed82312d36650e/4c1ab/kmitra-logo.png 585w&quot;
         sizes=&quot;(max-width: 585px) 100vw, 585px&quot;
       /&gt;
     &lt;/span&gt;
@@ -479,7 +560,7 @@ The dedication of our readers gives us immense hope for the future of the magazi
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/ae911d3bbfc2934e2356c860034f287f/ec7a3/kmitra-stats.jpg&quot;
+    href=&quot;/blog/static/ae911d3bbfc2934e2356c860034f287f/93f40/kmitra-stats.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -498,11 +579,11 @@ The dedication of our readers gives us immense hope for the future of the magazi
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;kMITRA Stats&quot;
         title=&quot;&quot;
-        src=&quot;/blog/static/ae911d3bbfc2934e2356c860034f287f/f8fb9/kmitra-stats.jpg&quot;
-        srcset=&quot;/blog/static/ae911d3bbfc2934e2356c860034f287f/e8976/kmitra-stats.jpg 148w,
-/blog/static/ae911d3bbfc2934e2356c860034f287f/63df2/kmitra-stats.jpg 295w,
-/blog/static/ae911d3bbfc2934e2356c860034f287f/f8fb9/kmitra-stats.jpg 590w,
-/blog/static/ae911d3bbfc2934e2356c860034f287f/ec7a3/kmitra-stats.jpg 787w&quot;
+        src=&quot;/blog/static/ae911d3bbfc2934e2356c860034f287f/88218/kmitra-stats.jpg&quot;
+        srcset=&quot;/blog/static/ae911d3bbfc2934e2356c860034f287f/7237a/kmitra-stats.jpg 148w,
+/blog/static/ae911d3bbfc2934e2356c860034f287f/0cfdf/kmitra-stats.jpg 295w,
+/blog/static/ae911d3bbfc2934e2356c860034f287f/88218/kmitra-stats.jpg 590w,
+/blog/static/ae911d3bbfc2934e2356c860034f287f/93f40/kmitra-stats.jpg 787w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -550,5 +631,5 @@ The dedication of our readers gives us immense hope for the future of the magazi
 &lt;li&gt;WordPress CMS/CDN&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Thanks for reading :)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/blog/thatsallfolks-3e51980fa514498df06cdcc64409074b.gif&quot; alt=&quot;That&amp;#x27;s All Folks!&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/3e51980fa514498df06cdcc64409074b/thatsallfolks.gif&quot; alt=&quot;That&amp;#x27;s All Folks!&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;until next time..&lt;/em&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
