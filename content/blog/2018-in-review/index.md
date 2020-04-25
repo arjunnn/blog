@@ -38,11 +38,11 @@ Although I didn't plan on it, I ended up reading a ton of books in the past year
 ---
 
 ### Other Stuff to look forward to in 2019
-- In the last week of December I finally got around to finishing the React Course I purchased in 2017 (😲, yes I know) and I think it **finally** clicked for me. Just three years later, no biggie 😅. I've since been obsessively learing everything I can about React. In fact, I brought this blog back to life just so I could learn Gatsby and remake my blog. So I'm seriously going to use React at work and elsewhere because it is **so** good!
+- In the last week of December I finally got around to finishing the React Course I purchased in 2017 (😲, yes I know) and I think it **finally** clicked for me. Just three years later, no biggie 😅. I've since been obsessively learning everything I can about React. In fact, I brought this blog back to life just so I could learn Gatsby and remake my blog. So I'm seriously going to use React at work and elsewhere because it is **so** good!
 
 - More books! I can't read enough books.[^ https://twitter.com/ASmallFiction/status/1027790488865107968]
 
-- Deliberate choices about time spent in activites, in terms of risk, reward and strength
+- Deliberate choices about time spent in activities, in terms of risk, reward and strength
 
 - Audit relationships regularly, discuss long-term priorities, issues etc.
 
